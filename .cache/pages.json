@@ -26,18 +26,8 @@
     },
     {
         "componentChunkName": "component---src-templates-author-tsx",
-        "jsonName": "author-another-author-ab6",
-        "path": "/author/another-author/"
-    },
-    {
-        "componentChunkName": "component---src-templates-author-tsx",
         "jsonName": "author-james-de-lay-1a6",
         "path": "/author/james-de-lay/"
-    },
-    {
-        "componentChunkName": "component---src-templates-author-tsx",
-        "jsonName": "author-james-1ab",
-        "path": "/author/james/"
     },
     {
         "componentChunkName": "component---src-templates-author-tsx",
@@ -61,11 +51,6 @@
     },
     {
         "componentChunkName": "component---src-templates-tags-tsx",
-        "jsonName": "tags-getting-started-19b",
-        "path": "/tags/getting-started/"
-    },
-    {
-        "componentChunkName": "component---src-templates-tags-tsx",
         "jsonName": "tags-speeches-ea3",
         "path": "/tags/speeches/"
     },
@@ -73,15 +58,5 @@
         "componentChunkName": "component---src-templates-tags-tsx",
         "jsonName": "tags-tests-c5f",
         "path": "/tags/tests/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-tsx",
-        "jsonName": "using-the-ghost-editor-4c3",
-        "path": "/using-the-ghost-editor/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-tsx",
-        "jsonName": "welcome-e45",
-        "path": "/welcome/"
     }
 ]

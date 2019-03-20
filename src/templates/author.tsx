@@ -21,11 +21,11 @@ import {
   SocialLink,
 } from '../styles/shared';
 import { PageContext } from './post';
-import Facebook from '../components/icons/facebook';
+import GitHub from '../components/icons/github';
 import Helmet from 'react-helmet';
 import config from '../website-config';
 import Website from '../components/icons/website';
-import Twitter from '../components/icons/twitter';
+import LinkedIn from '../components/icons/linkedin';
 
 const HiddenMobile = css`
   @media (max-width: 500px) {
@@ -93,8 +93,8 @@ interface AuthorTemplateProps {
     authorYaml: {
       id: string;
       website?: string;
-      twitter?: string;
-      facebook?: string;
+      github?: string;
+      linkedIn?: string;
       location?: string;
       profile_image?: {
         childImageSharp: {
@@ -137,9 +137,7 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
         <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
         <meta property="article:publisher" content="https://www.facebook.com/ghost" />
         <meta property="article:author" content="https://www.facebook.com/ghost" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={`${author.id} - ${config.title}`} />
-        <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
+        
         {config.twitter && (
           <meta
             name="twitter:site"
@@ -198,30 +196,36 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
                     </a>
                   </div>
                 )}
-                {author.twitter && (
-                  <a
-                    className="social-link-tw"
-                    css={SocialLink}
-                    href={`https://twitter.com/${author.twitter}`}
-                    title="Twitter"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Twitter />
-                  </a>
+                {author.github && (
+                  <div>
+                    <a
+                      className="social-link-wb"
+                      css={SocialLink}
+                      href={author.github}
+                      title="GitHub"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHub />
+                    </a>
+                  </div>
                 )}
-                {author.facebook && (
-                  <a
-                    className="social-link-fb"
-                    css={SocialLink}
-                    href={`https://www.facebook.com/${author.facebook}`}
-                    title="Facebook"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Facebook />
-                  </a>
+                {author.linkedIn && (
+                  <div>
+                    <a
+                      className="social-link-wb"
+                      css={SocialLink}
+                      href={author.linkedIn}
+                      title="LinkedIn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <LinkedIn />
+                    </a>
+                  </div>
                 )}
+                
+                
                 {/* TODO: RSS for author */}
                 {/* <a
                   css={SocialLink} className="social-link-rss"
@@ -264,9 +268,9 @@ export const pageQuery = graphql`
     authorYaml(id: { eq: $author }) {
       id
       website
-      twitter
+      linkedIn
       bio
-      facebook
+      github
       location
       profile_image {
         childImageSharp {
@@ -303,6 +307,7 @@ export const pageQuery = graphql`
             author {
               id
               bio
+              github
               avatar {
                 children {
                   ... on ImageSharp {

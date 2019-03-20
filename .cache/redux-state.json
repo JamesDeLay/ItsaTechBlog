@@ -1,0 +1,4287 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/jim/Documents/BlogSite_2.0/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "51bea9193776f3e49908cd72e18aaf0e",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5623b0c41a7dc15d2bd003aa2005f30c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "87ef0b83a6024b27a6575af8b3217de3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5c0e16a93ae92efdc62eec99617ba611",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d8f8804c7eea1ae81132dbdf6314441e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d0453e57f50ed8a78feb6cc2f8565d8e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "12efb3bb088eb3becee0c320537d1ac1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e4682e41bf15a3896f4a48d8a6f9adb0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d3ffb9e3-62c1-51c5-af15-6c1d5fe99195": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-source-filesystem",
+      "id": "d3ffb9e3-62c1-51c5-af15-6c1d5fe99195",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "content",
+        "path": "/home/jim/Documents/BlogSite_2.0/src/content"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "421255141ea0eb43921d89e6e186bc67",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b2fcfeb7-d957-5561-95cb-444518d1324a": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-transformer-remark",
+      "id": "b2fcfeb7-d957-5561-95cb-444518d1324a",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.5",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-responsive-iframe",
+            "id": "701efe69-4926-567e-8297-9c35797da70f",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-prismjs",
+            "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.4",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-copy-linked-files",
+            "id": "80533a5b-ad2d-50ff-af51-726674869458",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-smartypants",
+            "id": "90305615-131b-5991-a708-2c2d1c43d946",
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.8",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-smartypants"
+          },
+          {
+            "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-abbr",
+            "id": "4b52590f-4b5d-54d0-b9c3-2a5cefd3496f",
+            "name": "gatsby-remark-abbr",
+            "version": "1.0.0",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-abbr"
+          },
+          {
+            "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-images",
+            "id": "dd3dbc0d-9b4d-58bf-baff-d57270fa7914",
+            "name": "gatsby-remark-images",
+            "version": "3.0.3",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 1170,
+              "quality": 100,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.5",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9e0e8221796ddaa4c31cb17f15b0b0b5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "701efe69-4926-567e-8297-9c35797da70f": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-responsive-iframe",
+      "id": "701efe69-4926-567e-8297-9c35797da70f",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c0f2e96614fd7b6f3ee483a1f9a0bedd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b8d3a2f5-5540-5699-b862-153e57b2c618": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-prismjs",
+      "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cec7a2e11b12ba2f4d985020ebcbacf2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80533a5b-ad2d-50ff-af51-726674869458": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-copy-linked-files",
+      "id": "80533a5b-ad2d-50ff-af51-726674869458",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5f7e1051e4a481f90950e04c0aee0fa0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "90305615-131b-5991-a708-2c2d1c43d946": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-smartypants",
+      "id": "90305615-131b-5991-a708-2c2d1c43d946",
+      "name": "gatsby-remark-smartypants",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "retext",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2d018971d85e61c02c1b3c19a1828537",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4b52590f-4b5d-54d0-b9c3-2a5cefd3496f": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-abbr",
+      "id": "4b52590f-4b5d-54d0-b9c3-2a5cefd3496f",
+      "name": "gatsby-remark-abbr",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-abbr",
+      "packageJson": {
+        "name": "gatsby-remark-abbr",
+        "description": "Use remark-abbr to add abbreviations support to gatsby-remark",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "remark",
+          "remark-abbr"
+        ],
+        "author": {
+          "name": "Charley DAVID",
+          "email": "hello@calyh.re"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-core",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "remark-abbr",
+            "version": "^1.0.7"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^8.0.3"
+          },
+          {
+            "name": "babel-jest",
+            "version": "^21.2.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.1"
+          },
+          {
+            "name": "dedent",
+            "version": "^0.7.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^4.12.1"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^2.3.1"
+          },
+          {
+            "name": "jest",
+            "version": "^21.2.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.8.2"
+          },
+          {
+            "name": "regenerator-runtime",
+            "version": "^0.11.0"
+          },
+          {
+            "name": "remark",
+            "version": "^8.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c9949be9c7bac1aa5a499dcbb0367c43",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "dd3dbc0d-9b4d-58bf-baff-d57270fa7914": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-images",
+      "id": "dd3dbc0d-9b4d-58bf-baff-d57270fa7914",
+      "name": "gatsby-remark-images",
+      "version": "3.0.3",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 1170,
+        "quality": 100,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "3.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-definitions",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "28709025d432e33c13d4da058b51cbad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6aa321d5-19bf-5a36-99ac-3b6091585e24": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-transformer-json",
+      "id": "6aa321d5-19bf-5a36-99ac-3b6091585e24",
+      "name": "gatsby-transformer-json",
+      "version": "2.1.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-transformer-json",
+      "packageJson": {
+        "name": "gatsby-transformer-json",
+        "description": "Gatsby transformer plugin for JSON files",
+        "version": "2.1.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "json"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "430fbc27b7fa81e27ef75787da053cd4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8ce96f92-d408-5db3-a84e-c9a04965ea9b": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-canonical-urls",
+      "id": "8ce96f92-d408-5db3-a84e-c9a04965ea9b",
+      "name": "gatsby-plugin-canonical-urls",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "siteUrl": "https://gatsby-casper.netlify.com"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-canonical-urls",
+      "packageJson": {
+        "name": "gatsby-plugin-canonical-urls",
+        "description": "Add canonical links to HTML pages Gatsby generates.",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e7a79e6cbdb005b10f1557e969766b1a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-emotion",
+      "id": "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177",
+      "name": "gatsby-plugin-emotion",
+      "version": "4.0.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-emotion",
+      "packageJson": {
+        "name": "gatsby-plugin-emotion",
+        "description": "Gatsby plugin to add support for Emotion",
+        "version": "4.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "emotion",
+          "css-in-js"
+        ],
+        "author": {
+          "name": "Tegan Churchill",
+          "email": "churchill.tegan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@emotion/babel-preset-css-prop",
+            "version": "10.0.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "@emotion/core",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2d922a8c5210ddfff6236d08cb00388f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6baed434-a608-5e80-ba69-fa94fef95ec5": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-typescript",
+      "id": "6baed434-a608-5e80-ba69-fa94fef95ec5",
+      "name": "gatsby-plugin-typescript",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "resolvableExtensions",
+        "onCreateBabelConfig",
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-typescript",
+      "packageJson": {
+        "name": "gatsby-plugin-typescript",
+        "description": "Adds TypeScript support to Gatsby",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typescript"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/preset-typescript",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-plugin-remove-graphql-queries",
+            "version": "^2.5.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2f5ff02c9ce95f3829ba986a056856f9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5beea836263e2aced2e880e156166f2f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e267fa6b7abfafd974fe2a07b9c0ff14",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "256c5a2d-31c3-5956-b776-42b28efb62c0": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-transformer-yaml",
+      "id": "256c5a2d-31c3-5956-b776-42b28efb62c0",
+      "name": "gatsby-transformer-yaml",
+      "version": "2.1.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-transformer-yaml",
+      "packageJson": {
+        "name": "gatsby-transformer-yaml",
+        "description": "Gatsby transformer plugin for yaml",
+        "version": "2.1.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "yaml"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "js-yaml",
+            "version": "3.11.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e0b0d0b767c9bb46a3b01f10c9c7fb4d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-feed",
+      "id": "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2",
+      "name": "gatsby-plugin-feed",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": {
+          "name": "Nicholas Young",
+          "email": "nicholas@nicholaswyoung.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "mkdirp",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c58c993300573edf7233e782ead8c106",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4550c195-dccd-50ed-a370-9150e34363cb": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-postcss",
+      "id": "4550c195-dccd-50ed-a370-9150e34363cb",
+      "name": "gatsby-plugin-postcss",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "postCssPlugins": [
+          null,
+          null
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-postcss",
+      "packageJson": {
+        "name": "gatsby-plugin-postcss",
+        "description": "Gatsby plugin to handle PostCSS",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "postcss"
+        ],
+        "author": {
+          "name": "Marat Dreizin",
+          "email": "marat.dreizin@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "postcss-loader",
+            "version": "^3.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6374cb2f8a4be0c11aaedd573de16c6e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0df80f7c-ddbb-57af-adf4-2fe97d9f80d9": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-google-analytics",
+      "id": "0df80f7c-ddbb-57af-adf4-2fe97d9f80d9",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-XXXX-Y",
+        "head": true,
+        "anonymize": true,
+        "respectDNT": true,
+        "exclude": [
+          "/preview/**"
+        ],
+        "sampleRate": 100,
+        "siteSpeedSampleRate": 10
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a0c9807c80560f1dc44ce05f31c7dd13",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "736a56c186683f8f738c54d3b919595f",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages",
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0",
+      "packageJson": {
+        "name": "gatsby-casper",
+        "description": "Casper for gatsby",
+        "version": "0.0.0",
+        "author": "Scott Cooper <scttcper@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@emotion/core",
+            "version": "^10.0.7"
+          },
+          {
+            "name": "@emotion/styled",
+            "version": "^10.0.7"
+          },
+          {
+            "name": "@emotion/styled-base",
+            "version": "^10.0.7"
+          },
+          {
+            "name": "classnames",
+            "version": "2.2.6"
+          },
+          {
+            "name": "cssnano",
+            "version": "4.1.9"
+          },
+          {
+            "name": "emotion",
+            "version": "10.0.7"
+          },
+          {
+            "name": "emotion-server",
+            "version": "10.0.7"
+          },
+          {
+            "name": "gatsby",
+            "version": "2.0.119"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-canonical-urls",
+            "version": "2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "4.0.3"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^2.0.13"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.13"
+          },
+          {
+            "name": "gatsby-plugin-postcss",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-typescript",
+            "version": "2.0.7"
+          },
+          {
+            "name": "gatsby-remark-abbr",
+            "version": "1.0.0"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.9"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "3.0.3"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.4"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.0.9"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.8"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-json",
+            "version": "2.1.8"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "2.2.5"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "2.1.13"
+          },
+          {
+            "name": "gatsby-transformer-yaml",
+            "version": "2.1.8"
+          },
+          {
+            "name": "lodash",
+            "version": "4.17.11"
+          },
+          {
+            "name": "modern-normalize",
+            "version": "0.5.0"
+          },
+          {
+            "name": "normalize.css",
+            "version": "8.0.1"
+          },
+          {
+            "name": "polished",
+            "version": "2.3.3"
+          },
+          {
+            "name": "postcss-color-function",
+            "version": "4.0.1"
+          },
+          {
+            "name": "prism-themes",
+            "version": "1.0.1"
+          },
+          {
+            "name": "prismjs",
+            "version": "1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "16.8.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "16.8.1"
+          },
+          {
+            "name": "react-emotion",
+            "version": "10.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "5.2.0"
+          },
+          {
+            "name": "rehype-react",
+            "version": "3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@types/classnames",
+            "version": "2.2.7"
+          },
+          {
+            "name": "@types/lodash",
+            "version": "4.14.120"
+          },
+          {
+            "name": "@types/node",
+            "version": "11.9.3"
+          },
+          {
+            "name": "@types/react",
+            "version": "16.8.2"
+          },
+          {
+            "name": "@types/react-dom",
+            "version": "16.8.0"
+          },
+          {
+            "name": "@types/react-helmet",
+            "version": "5.0.8"
+          },
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "1.10.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          },
+          {
+            "name": "rimraf",
+            "version": "2.6.3"
+          },
+          {
+            "name": "tslint",
+            "version": "5.12.1"
+          },
+          {
+            "name": "tslint-config-blvd",
+            "version": "1.2.1"
+          },
+          {
+            "name": "tslint-config-prettier",
+            "version": "1.18.0"
+          },
+          {
+            "name": "tslint-plugin-prettier",
+            "version": "2.0.1"
+          },
+          {
+            "name": "tslint-xo",
+            "version": "0.14.0"
+          },
+          {
+            "name": "typescript",
+            "version": "3.3.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "82c84af729cc654eb2876a3db83902a8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2a6d7404-9e27-5741-9f55-99c98fded6c9": {
+      "resolve": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-page-creator",
+      "id": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/jim/Documents/BlogSite_2.0/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jim/Documents/BlogSite_2.0/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b0bb0ae06d979a8027532e40f0cc3c08",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Ghost",
+        "description": "The professional publishing platform",
+        "siteUrl": "https://gatsby-casper.netlify.com"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "mapping": {
+        "MarkdownRemark.frontmatter.author": "AuthorYaml"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-03-20T00:25:33.322Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fd4ccee342563f9e245d83ae0bb1d9ea",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "272f90f7-d4ec-5b95-8c7b-a79d37bdcc08": {
+      "id": "272f90f7-d4ec-5b95-8c7b-a79d37bdcc08",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6688081c2d0df3414a38f1c781fa770f",
+        "type": "Directory",
+        "description": "Directory \"src/content\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-20T00:21:56.836Z",
+      "accessTime": "2019-03-20T00:21:59.888Z",
+      "changeTime": "2019-03-20T00:21:56.836Z",
+      "birthTime": "2019-03-20T00:21:56.836Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 2051,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070266,
+      "blocks": 8,
+      "atimeMs": 1553041319887.6401,
+      "mtimeMs": 1553041316835.6738,
+      "ctimeMs": 1553041316835.6738,
+      "birthtimeMs": 1553041316835.6738,
+      "atime": "2019-03-20T00:21:59.888Z",
+      "mtime": "2019-03-20T00:21:56.836Z",
+      "ctime": "2019-03-20T00:21:56.836Z",
+      "birthtime": "2019-03-20T00:21:56.836Z"
+    },
+    "cc698781-e7f6-512e-a4c1-8a4b6b1e85cc": {
+      "id": "cc698781-e7f6-512e-a4c1-8a4b6b1e85cc",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f1dc7283a5a488262688a90d75670be2",
+        "type": "Directory",
+        "description": "Directory \"src/content/avatars\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/avatars",
+      "relativePath": "avatars",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-20T00:18:57.618Z",
+      "accessTime": "2019-03-20T00:19:01.034Z",
+      "changeTime": "2019-03-20T00:18:57.618Z",
+      "birthTime": "2019-03-20T00:18:57.618Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "base": "avatars",
+      "ext": "",
+      "name": "avatars",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070270,
+      "blocks": 8,
+      "atimeMs": 1553041141033.721,
+      "mtimeMs": 1553041137617.7632,
+      "ctimeMs": 1553041137617.7632,
+      "birthtimeMs": 1553041137617.7632,
+      "atime": "2019-03-20T00:19:01.034Z",
+      "mtime": "2019-03-20T00:18:57.618Z",
+      "ctime": "2019-03-20T00:18:57.618Z",
+      "birthtime": "2019-03-20T00:18:57.618Z"
+    },
+    "76952249-8355-5b79-87e1-ce17e0091a54": {
+      "id": "76952249-8355-5b79-87e1-ce17e0091a54",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1ebe7d2cdaa537b813db58714af4e3e5",
+        "type": "Directory",
+        "description": "Directory \"src/content/img\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "relativePath": "img",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-20T00:18:57.630Z",
+      "accessTime": "2019-03-20T00:19:01.034Z",
+      "changeTime": "2019-03-20T00:18:57.630Z",
+      "birthTime": "2019-03-20T00:18:57.630Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "base": "img",
+      "ext": "",
+      "name": "img",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070669,
+      "blocks": 8,
+      "atimeMs": 1553041141033.721,
+      "mtimeMs": 1553041137629.763,
+      "ctimeMs": 1553041137629.763,
+      "birthtimeMs": 1553041137629.763,
+      "atime": "2019-03-20T00:19:01.034Z",
+      "mtime": "2019-03-20T00:18:57.630Z",
+      "ctime": "2019-03-20T00:18:57.630Z",
+      "birthtime": "2019-03-20T00:18:57.630Z"
+    },
+    "b168b096-da03-5364-a8ad-315359d4ec51": {
+      "id": "b168b096-da03-5364-a8ad-315359d4ec51",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "File",
+        "mediaType": "application/octet-stream",
+        "description": "File \"src/content/.gitkeep\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/.gitkeep",
+      "relativePath": ".gitkeep",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-03-20T00:18:57.618Z",
+      "accessTime": "2019-03-20T00:19:37.313Z",
+      "changeTime": "2019-03-20T00:18:57.618Z",
+      "birthTime": "2019-03-20T00:18:57.618Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "base": ".gitkeep",
+      "ext": "",
+      "name": ".gitkeep",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070267,
+      "blocks": 0,
+      "atimeMs": 1553041177313.2786,
+      "mtimeMs": 1553041137617.7632,
+      "ctimeMs": 1553041137617.7632,
+      "birthtimeMs": 1553041137617.7632,
+      "atime": "2019-03-20T00:19:37.313Z",
+      "mtime": "2019-03-20T00:18:57.618Z",
+      "ctime": "2019-03-20T00:18:57.618Z",
+      "birthtime": "2019-03-20T00:18:57.618Z"
+    },
+    "d3bd123c-bc2b-5c89-afe6-17b1a0fdf6e4": {
+      "id": "d3bd123c-bc2b-5c89-afe6-17b1a0fdf6e4",
+      "children": [
+        "494da39c-8cfd-5c23-9de9-9d4b73220f74"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a552f1b02cb85cb8da3d35b1fd75987e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/a-full-style-test.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/a-full-style-test.md",
+      "relativePath": "a-full-style-test.md",
+      "extension": "md",
+      "size": 6904,
+      "prettySize": "6.9 kB",
+      "modifiedTime": "2019-03-20T00:22:00.420Z",
+      "accessTime": "2019-03-20T00:23:24.467Z",
+      "changeTime": "2019-03-20T00:22:00.420Z",
+      "birthTime": "2019-03-20T00:22:00.420Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "base": "a-full-style-test.md",
+      "ext": ".md",
+      "name": "a-full-style-test",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070268,
+      "blocks": 16,
+      "atimeMs": 1553041404466.7317,
+      "mtimeMs": 1553041320419.6343,
+      "ctimeMs": 1553041320419.6343,
+      "birthtimeMs": 1553041320419.6343,
+      "atime": "2019-03-20T00:23:24.467Z",
+      "mtime": "2019-03-20T00:22:00.420Z",
+      "ctime": "2019-03-20T00:22:00.420Z",
+      "birthtime": "2019-03-20T00:22:00.420Z"
+    },
+    "44c6fd36-734c-598d-aaeb-2021e41c1eea": {
+      "id": "44c6fd36-734c-598d-aaeb-2021e41c1eea",
+      "children": [
+        "James DeLay",
+        "Sarah Zhao"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "File",
+        "mediaType": "text/yaml",
+        "description": "File \"src/content/author.yaml\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/author.yaml",
+      "relativePath": "author.yaml",
+      "extension": "yaml",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-03-20T00:26:26.965Z",
+      "accessTime": "2019-03-20T00:23:40.059Z",
+      "changeTime": "2019-03-20T00:26:26.965Z",
+      "birthTime": "2019-03-20T00:26:26.965Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "base": "author.yaml",
+      "ext": ".yaml",
+      "name": "author",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070269,
+      "blocks": 0,
+      "atimeMs": 1553041420058.5686,
+      "mtimeMs": 1553041586964.895,
+      "ctimeMs": 1553041586964.895,
+      "birthtimeMs": 1553041586964.895,
+      "atime": "2019-03-20T00:23:40.059Z",
+      "mtime": "2019-03-20T00:26:26.965Z",
+      "ctime": "2019-03-20T00:26:26.965Z",
+      "birthtime": "2019-03-20T00:26:26.965Z"
+    },
+    "219ca916-4ed5-5553-a419-bee81325d734": {
+      "id": "219ca916-4ed5-5553-a419-bee81325d734",
+      "children": [
+        "28bed033-cbb3-578b-b561-ba92de315fa1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "92cd70a899528fe87311a9fc6bf64bcb",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/purpose-of-education.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/purpose-of-education.md",
+      "relativePath": "purpose-of-education.md",
+      "extension": "md",
+      "size": 2796,
+      "prettySize": "2.8 kB",
+      "modifiedTime": "2019-03-20T00:22:00.420Z",
+      "accessTime": "2019-03-20T00:22:00.700Z",
+      "changeTime": "2019-03-20T00:22:00.420Z",
+      "birthTime": "2019-03-20T00:22:00.420Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "base": "purpose-of-education.md",
+      "ext": ".md",
+      "name": "purpose-of-education",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070696,
+      "blocks": 8,
+      "atimeMs": 1553041320699.6313,
+      "mtimeMs": 1553041320419.6343,
+      "ctimeMs": 1553041320419.6343,
+      "birthtimeMs": 1553041320419.6343,
+      "atime": "2019-03-20T00:22:00.700Z",
+      "mtime": "2019-03-20T00:22:00.420Z",
+      "ctime": "2019-03-20T00:22:00.420Z",
+      "birthtime": "2019-03-20T00:22:00.420Z"
+    },
+    "1e6ba140-e523-5da2-af44-e742bb9d5a75": {
+      "id": "1e6ba140-e523-5da2-af44-e742bb9d5a75",
+      "children": [
+        "2f02dd59-f818-510a-bb42-88f047291789"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ca63725cb54a74b2b9890dfba3bca543",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/gettysburg-address.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/gettysburg-address.md",
+      "relativePath": "gettysburg-address.md",
+      "extension": "md",
+      "size": 1584,
+      "prettySize": "1.58 kB",
+      "modifiedTime": "2019-03-20T00:23:11.891Z",
+      "accessTime": "2019-03-20T00:23:11.919Z",
+      "changeTime": "2019-03-20T00:23:11.891Z",
+      "birthTime": "2019-03-20T00:23:11.891Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "base": "gettysburg-address.md",
+      "ext": ".md",
+      "name": "gettysburg-address",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070668,
+      "blocks": 8,
+      "atimeMs": 1553041391918.864,
+      "mtimeMs": 1553041391890.8643,
+      "ctimeMs": 1553041391890.8643,
+      "birthtimeMs": 1553041391890.8643,
+      "atime": "2019-03-20T00:23:11.919Z",
+      "mtime": "2019-03-20T00:23:11.891Z",
+      "ctime": "2019-03-20T00:23:11.891Z",
+      "birthtime": "2019-03-20T00:23:11.891Z"
+    },
+    "15b357a4-8ce9-5333-96b6-53fc70865a4a": {
+      "id": "15b357a4-8ce9-5333-96b6-53fc70865a4a",
+      "children": [
+        "speeches"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cf19cd0ea161a4e6ec69dced98046cf4",
+        "type": "File",
+        "mediaType": "text/yaml",
+        "description": "File \"src/content/tag.yaml\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/tag.yaml",
+      "relativePath": "tag.yaml",
+      "extension": "yaml",
+      "size": 101,
+      "prettySize": "101 B",
+      "modifiedTime": "2019-03-20T00:18:57.630Z",
+      "accessTime": "2019-03-20T00:19:01.034Z",
+      "changeTime": "2019-03-20T00:18:57.630Z",
+      "birthTime": "2019-03-20T00:18:57.630Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "base": "tag.yaml",
+      "ext": ".yaml",
+      "name": "tag",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070922,
+      "blocks": 8,
+      "atimeMs": 1553041141033.721,
+      "mtimeMs": 1553041137629.763,
+      "ctimeMs": 1553041137629.763,
+      "birthtimeMs": 1553041137629.763,
+      "atime": "2019-03-20T00:19:01.034Z",
+      "mtime": "2019-03-20T00:18:57.630Z",
+      "ctime": "2019-03-20T00:18:57.630Z",
+      "birthtime": "2019-03-20T00:18:57.630Z"
+    },
+    "5166521e-2b30-5635-971c-1487cb596f91": {
+      "id": "5166521e-2b30-5635-971c-1487cb596f91",
+      "children": [
+        "28c85f05-b829-5d0c-a996-744ff1caefad"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5f2c129e42248a92c87b13b4293950cf",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/content/avatars/ghost.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/avatars/ghost.png",
+      "relativePath": "avatars/ghost.png",
+      "extension": "png",
+      "size": 5563,
+      "prettySize": "5.56 kB",
+      "modifiedTime": "2019-03-20T00:18:57.618Z",
+      "accessTime": "2019-03-20T00:19:01.026Z",
+      "changeTime": "2019-03-20T00:18:57.618Z",
+      "birthTime": "2019-03-20T00:18:57.618Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/avatars",
+      "base": "ghost.png",
+      "ext": ".png",
+      "name": "ghost",
+      "relativeDirectory": "avatars",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070271,
+      "blocks": 16,
+      "atimeMs": 1553041141025.721,
+      "mtimeMs": 1553041137617.7632,
+      "ctimeMs": 1553041137617.7632,
+      "birthtimeMs": 1553041137617.7632,
+      "atime": "2019-03-20T00:19:01.026Z",
+      "mtime": "2019-03-20T00:18:57.618Z",
+      "ctime": "2019-03-20T00:18:57.618Z",
+      "birthtime": "2019-03-20T00:18:57.618Z"
+    },
+    "3ca72e44-4e3d-5d0e-b747-99425d8cf069": {
+      "id": "3ca72e44-4e3d-5d0e-b747-99425d8cf069",
+      "children": [
+        "13d2d117-a0f8-5b50-9150-d9b63ae7e665"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2b5eaa0de166a8b5faebad4955c2200c",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/content/img/ghost-logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/ghost-logo.png",
+      "relativePath": "img/ghost-logo.png",
+      "extension": "png",
+      "size": 9004,
+      "prettySize": "9 kB",
+      "modifiedTime": "2019-03-20T00:18:57.626Z",
+      "accessTime": "2019-03-20T00:19:01.030Z",
+      "changeTime": "2019-03-20T00:18:57.626Z",
+      "birthTime": "2019-03-20T00:18:57.626Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "ghost-logo.png",
+      "ext": ".png",
+      "name": "ghost-logo",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070675,
+      "blocks": 24,
+      "atimeMs": 1553041141029.721,
+      "mtimeMs": 1553041137625.7632,
+      "ctimeMs": 1553041137625.7632,
+      "birthtimeMs": 1553041137625.7632,
+      "atime": "2019-03-20T00:19:01.030Z",
+      "mtime": "2019-03-20T00:18:57.626Z",
+      "ctime": "2019-03-20T00:18:57.626Z",
+      "birthtime": "2019-03-20T00:18:57.626Z"
+    },
+    "4bae0b9e-faa3-562d-933c-821c1d821ed9": {
+      "id": "4bae0b9e-faa3-562d-933c-821c1d821ed9",
+      "children": [
+        "d5c90dae-a143-5438-9ede-5a6d6eba7c71"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b629d579b1c63df6750fc11d47141796",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/testimg2.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/testimg2.jpg",
+      "relativePath": "img/testimg2.jpg",
+      "extension": "jpg",
+      "size": 9999,
+      "prettySize": "10 kB",
+      "modifiedTime": "2019-03-20T00:18:57.630Z",
+      "accessTime": "2019-03-20T00:19:01.034Z",
+      "changeTime": "2019-03-20T00:18:57.630Z",
+      "birthTime": "2019-03-20T00:18:57.630Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "testimg2.jpg",
+      "ext": ".jpg",
+      "name": "testimg2",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070679,
+      "blocks": 24,
+      "atimeMs": 1553041141033.721,
+      "mtimeMs": 1553041137629.763,
+      "ctimeMs": 1553041137629.763,
+      "birthtimeMs": 1553041137629.763,
+      "atime": "2019-03-20T00:19:01.034Z",
+      "mtime": "2019-03-20T00:18:57.630Z",
+      "ctime": "2019-03-20T00:18:57.630Z",
+      "birthtime": "2019-03-20T00:18:57.630Z"
+    },
+    "28c85f05-b829-5d0c-a996-744ff1caefad": {
+      "id": "28c85f05-b829-5d0c-a996-744ff1caefad",
+      "children": [],
+      "parent": "5166521e-2b30-5635-971c-1487cb596f91",
+      "internal": {
+        "contentDigest": "5f2c129e42248a92c87b13b4293950cf",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "13d2d117-a0f8-5b50-9150-d9b63ae7e665": {
+      "id": "13d2d117-a0f8-5b50-9150-d9b63ae7e665",
+      "children": [],
+      "parent": "3ca72e44-4e3d-5d0e-b747-99425d8cf069",
+      "internal": {
+        "contentDigest": "2b5eaa0de166a8b5faebad4955c2200c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d5c90dae-a143-5438-9ede-5a6d6eba7c71": {
+      "id": "d5c90dae-a143-5438-9ede-5a6d6eba7c71",
+      "children": [],
+      "parent": "4bae0b9e-faa3-562d-933c-821c1d821ed9",
+      "internal": {
+        "contentDigest": "b629d579b1c63df6750fc11d47141796",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d56dacb3-22d8-5661-bcc8-ec1ecaedbdeb": {
+      "id": "d56dacb3-22d8-5661-bcc8-ec1ecaedbdeb",
+      "children": [
+        "9b307d07-5dac-5712-96a5-cf3b348b187e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f55e924eff608d71da37e57b398c587d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/blog-cover.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/blog-cover.jpg",
+      "relativePath": "img/blog-cover.jpg",
+      "extension": "jpg",
+      "size": 85788,
+      "prettySize": "85.8 kB",
+      "modifiedTime": "2019-03-20T00:18:57.626Z",
+      "accessTime": "2019-03-20T00:19:01.030Z",
+      "changeTime": "2019-03-20T00:18:57.626Z",
+      "birthTime": "2019-03-20T00:18:57.626Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "blog-cover.jpg",
+      "ext": ".jpg",
+      "name": "blog-cover",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070671,
+      "blocks": 168,
+      "atimeMs": 1553041141029.721,
+      "mtimeMs": 1553041137625.7632,
+      "ctimeMs": 1553041137625.7632,
+      "birthtimeMs": 1553041137625.7632,
+      "atime": "2019-03-20T00:19:01.030Z",
+      "mtime": "2019-03-20T00:18:57.626Z",
+      "ctime": "2019-03-20T00:18:57.626Z",
+      "birthtime": "2019-03-20T00:18:57.626Z"
+    },
+    "614591c5-9f3b-5b0e-8181-09317dd53347": {
+      "id": "614591c5-9f3b-5b0e-8181-09317dd53347",
+      "children": [
+        "0422af6e-e288-5035-9a6a-fd49a6c4a02a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4aec4f6250f1a9c047e5e7973c9e348b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/computer.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/computer.jpg",
+      "relativePath": "img/computer.jpg",
+      "extension": "jpg",
+      "size": 97247,
+      "prettySize": "97.2 kB",
+      "modifiedTime": "2019-03-20T00:18:57.626Z",
+      "accessTime": "2019-03-20T00:19:01.030Z",
+      "changeTime": "2019-03-20T00:18:57.626Z",
+      "birthTime": "2019-03-20T00:18:57.626Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "computer.jpg",
+      "ext": ".jpg",
+      "name": "computer",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070672,
+      "blocks": 192,
+      "atimeMs": 1553041141029.721,
+      "mtimeMs": 1553041137625.7632,
+      "ctimeMs": 1553041137625.7632,
+      "birthtimeMs": 1553041137625.7632,
+      "atime": "2019-03-20T00:19:01.030Z",
+      "mtime": "2019-03-20T00:18:57.626Z",
+      "ctime": "2019-03-20T00:18:57.626Z",
+      "birthtime": "2019-03-20T00:18:57.626Z"
+    },
+    "4cea55dc-730c-560a-abaa-a1b7b2df9687": {
+      "id": "4cea55dc-730c-560a-abaa-a1b7b2df9687",
+      "children": [
+        "82918d60-3061-5607-882e-aaf119c4c5a6"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2cec9ec6dc6f9c79261c1302236d56ad",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/demo1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/demo1.jpg",
+      "relativePath": "img/demo1.jpg",
+      "extension": "jpg",
+      "size": 96575,
+      "prettySize": "96.6 kB",
+      "modifiedTime": "2019-03-20T00:18:57.626Z",
+      "accessTime": "2019-03-20T00:19:01.030Z",
+      "changeTime": "2019-03-20T00:18:57.626Z",
+      "birthTime": "2019-03-20T00:18:57.626Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "demo1.jpg",
+      "ext": ".jpg",
+      "name": "demo1",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070673,
+      "blocks": 192,
+      "atimeMs": 1553041141029.721,
+      "mtimeMs": 1553041137625.7632,
+      "ctimeMs": 1553041137625.7632,
+      "birthtimeMs": 1553041137625.7632,
+      "atime": "2019-03-20T00:19:01.030Z",
+      "mtime": "2019-03-20T00:18:57.626Z",
+      "ctime": "2019-03-20T00:18:57.626Z",
+      "birthtime": "2019-03-20T00:18:57.626Z"
+    },
+    "e657fabc-01c3-56bb-bd6d-5855bf976d18": {
+      "id": "e657fabc-01c3-56bb-bd6d-5855bf976d18",
+      "children": [
+        "1bfd58e6-b118-57fc-9d65-59f3353edee7"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0a5c2fef6452a3ea59c927e685ed4fae",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/demo4.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/demo4.jpg",
+      "relativePath": "img/demo4.jpg",
+      "extension": "jpg",
+      "size": 113783,
+      "prettySize": "114 kB",
+      "modifiedTime": "2019-03-20T00:18:57.626Z",
+      "accessTime": "2019-03-20T00:19:01.030Z",
+      "changeTime": "2019-03-20T00:18:57.626Z",
+      "birthTime": "2019-03-20T00:18:57.626Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "demo4.jpg",
+      "ext": ".jpg",
+      "name": "demo4",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070674,
+      "blocks": 224,
+      "atimeMs": 1553041141029.721,
+      "mtimeMs": 1553041137625.7632,
+      "ctimeMs": 1553041137625.7632,
+      "birthtimeMs": 1553041137625.7632,
+      "atime": "2019-03-20T00:19:01.030Z",
+      "mtime": "2019-03-20T00:18:57.626Z",
+      "ctime": "2019-03-20T00:18:57.626Z",
+      "birthtime": "2019-03-20T00:18:57.626Z"
+    },
+    "20b3460e-c69d-5965-9003-c4fac2fef631": {
+      "id": "20b3460e-c69d-5965-9003-c4fac2fef631",
+      "children": [
+        "371083cd-6058-503c-bd79-86c67d66ef3a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4dd7b5f567d2699202bc626bbcda5936",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/speeches-cover.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/speeches-cover.jpg",
+      "relativePath": "img/speeches-cover.jpg",
+      "extension": "jpg",
+      "size": 97547,
+      "prettySize": "97.5 kB",
+      "modifiedTime": "2019-03-20T00:18:57.626Z",
+      "accessTime": "2019-03-20T00:19:01.030Z",
+      "changeTime": "2019-03-20T00:18:57.626Z",
+      "birthTime": "2019-03-20T00:18:57.626Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "speeches-cover.jpg",
+      "ext": ".jpg",
+      "name": "speeches-cover",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070676,
+      "blocks": 192,
+      "atimeMs": 1553041141029.721,
+      "mtimeMs": 1553041137625.7632,
+      "ctimeMs": 1553041137625.7632,
+      "birthtimeMs": 1553041137625.7632,
+      "atime": "2019-03-20T00:19:01.030Z",
+      "mtime": "2019-03-20T00:18:57.626Z",
+      "ctime": "2019-03-20T00:18:57.626Z",
+      "birthtime": "2019-03-20T00:18:57.626Z"
+    },
+    "3bd9ba74-2992-58d6-8056-11dce13d9b57": {
+      "id": "3bd9ba74-2992-58d6-8056-11dce13d9b57",
+      "children": [
+        "6110f7c5-14e3-5c15-99ff-e5c6e3eaf82d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8bafcea43f0bc141b01ef5b43dd2003b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/testimg1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/testimg1.jpg",
+      "relativePath": "img/testimg1.jpg",
+      "extension": "jpg",
+      "size": 123315,
+      "prettySize": "123 kB",
+      "modifiedTime": "2019-03-20T00:18:57.630Z",
+      "accessTime": "2019-03-20T00:19:01.034Z",
+      "changeTime": "2019-03-20T00:18:57.630Z",
+      "birthTime": "2019-03-20T00:18:57.630Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "testimg1.jpg",
+      "ext": ".jpg",
+      "name": "testimg1",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070678,
+      "blocks": 248,
+      "atimeMs": 1553041141033.721,
+      "mtimeMs": 1553041137629.763,
+      "ctimeMs": 1553041137629.763,
+      "birthtimeMs": 1553041137629.763,
+      "atime": "2019-03-20T00:19:01.034Z",
+      "mtime": "2019-03-20T00:18:57.630Z",
+      "ctime": "2019-03-20T00:18:57.630Z",
+      "birthtime": "2019-03-20T00:18:57.630Z"
+    },
+    "9b307d07-5dac-5712-96a5-cf3b348b187e": {
+      "id": "9b307d07-5dac-5712-96a5-cf3b348b187e",
+      "children": [],
+      "parent": "d56dacb3-22d8-5661-bcc8-ec1ecaedbdeb",
+      "internal": {
+        "contentDigest": "f55e924eff608d71da37e57b398c587d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0422af6e-e288-5035-9a6a-fd49a6c4a02a": {
+      "id": "0422af6e-e288-5035-9a6a-fd49a6c4a02a",
+      "children": [],
+      "parent": "614591c5-9f3b-5b0e-8181-09317dd53347",
+      "internal": {
+        "contentDigest": "4aec4f6250f1a9c047e5e7973c9e348b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "82918d60-3061-5607-882e-aaf119c4c5a6": {
+      "id": "82918d60-3061-5607-882e-aaf119c4c5a6",
+      "children": [],
+      "parent": "4cea55dc-730c-560a-abaa-a1b7b2df9687",
+      "internal": {
+        "contentDigest": "2cec9ec6dc6f9c79261c1302236d56ad",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1bfd58e6-b118-57fc-9d65-59f3353edee7": {
+      "id": "1bfd58e6-b118-57fc-9d65-59f3353edee7",
+      "children": [],
+      "parent": "e657fabc-01c3-56bb-bd6d-5855bf976d18",
+      "internal": {
+        "contentDigest": "0a5c2fef6452a3ea59c927e685ed4fae",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "371083cd-6058-503c-bd79-86c67d66ef3a": {
+      "id": "371083cd-6058-503c-bd79-86c67d66ef3a",
+      "children": [],
+      "parent": "20b3460e-c69d-5965-9003-c4fac2fef631",
+      "internal": {
+        "contentDigest": "4dd7b5f567d2699202bc626bbcda5936",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6110f7c5-14e3-5c15-99ff-e5c6e3eaf82d": {
+      "id": "6110f7c5-14e3-5c15-99ff-e5c6e3eaf82d",
+      "children": [],
+      "parent": "3bd9ba74-2992-58d6-8056-11dce13d9b57",
+      "internal": {
+        "contentDigest": "8bafcea43f0bc141b01ef5b43dd2003b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "77196cfe-9532-5591-81e7-14a4289170a5": {
+      "id": "77196cfe-9532-5591-81e7-14a4289170a5",
+      "children": [
+        "be865d77-c97f-53dc-b574-8c8033aadb99"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8e92507f0141c508e4d5a30d3ca6fe53",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/writing.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/writing.jpg",
+      "relativePath": "img/writing.jpg",
+      "extension": "jpg",
+      "size": 79040,
+      "prettySize": "79 kB",
+      "modifiedTime": "2019-03-20T00:18:57.630Z",
+      "accessTime": "2019-03-20T00:19:01.034Z",
+      "changeTime": "2019-03-20T00:18:57.630Z",
+      "birthTime": "2019-03-20T00:18:57.630Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "writing.jpg",
+      "ext": ".jpg",
+      "name": "writing",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070681,
+      "blocks": 160,
+      "atimeMs": 1553041141033.721,
+      "mtimeMs": 1553041137629.763,
+      "ctimeMs": 1553041137629.763,
+      "birthtimeMs": 1553041137629.763,
+      "atime": "2019-03-20T00:19:01.034Z",
+      "mtime": "2019-03-20T00:18:57.630Z",
+      "ctime": "2019-03-20T00:18:57.630Z",
+      "birthtime": "2019-03-20T00:18:57.630Z"
+    },
+    "627fbd6b-1c29-5e61-8bf4-19910c09a4e7": {
+      "id": "627fbd6b-1c29-5e61-8bf4-19910c09a4e7",
+      "children": [
+        "05d3a015-baff-561c-a39f-9d28095d3882"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2823decbecd34c6071cef2221f03b4ff",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/testimg-cover.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/testimg-cover.jpg",
+      "relativePath": "img/testimg-cover.jpg",
+      "extension": "jpg",
+      "size": 188562,
+      "prettySize": "189 kB",
+      "modifiedTime": "2019-03-20T00:18:57.626Z",
+      "accessTime": "2019-03-20T00:19:01.030Z",
+      "changeTime": "2019-03-20T00:18:57.626Z",
+      "birthTime": "2019-03-20T00:18:57.626Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "testimg-cover.jpg",
+      "ext": ".jpg",
+      "name": "testimg-cover",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070677,
+      "blocks": 376,
+      "atimeMs": 1553041141029.721,
+      "mtimeMs": 1553041137625.7632,
+      "ctimeMs": 1553041137625.7632,
+      "birthtimeMs": 1553041137625.7632,
+      "atime": "2019-03-20T00:19:01.030Z",
+      "mtime": "2019-03-20T00:18:57.626Z",
+      "ctime": "2019-03-20T00:18:57.626Z",
+      "birthtime": "2019-03-20T00:18:57.626Z"
+    },
+    "be865d77-c97f-53dc-b574-8c8033aadb99": {
+      "id": "be865d77-c97f-53dc-b574-8c8033aadb99",
+      "children": [],
+      "parent": "77196cfe-9532-5591-81e7-14a4289170a5",
+      "internal": {
+        "contentDigest": "8e92507f0141c508e4d5a30d3ca6fe53",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "05d3a015-baff-561c-a39f-9d28095d3882": {
+      "id": "05d3a015-baff-561c-a39f-9d28095d3882",
+      "children": [],
+      "parent": "627fbd6b-1c29-5e61-8bf4-19910c09a4e7",
+      "internal": {
+        "contentDigest": "2823decbecd34c6071cef2221f03b4ff",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c9158892-c9ce-57bf-8208-8294b21b2f6d": {
+      "id": "c9158892-c9ce-57bf-8208-8294b21b2f6d",
+      "children": [
+        "df237ee0-21aa-593a-a83b-5a4dbc73b10a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "137c53aaeb1d869ab1c3c94764b1d7fa",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/welcome-to-ghost.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/welcome-to-ghost.jpg",
+      "relativePath": "img/welcome-to-ghost.jpg",
+      "extension": "jpg",
+      "size": 221332,
+      "prettySize": "221 kB",
+      "modifiedTime": "2019-03-20T00:18:57.630Z",
+      "accessTime": "2019-03-20T00:19:01.034Z",
+      "changeTime": "2019-03-20T00:18:57.630Z",
+      "birthTime": "2019-03-20T00:18:57.630Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "welcome-to-ghost.jpg",
+      "ext": ".jpg",
+      "name": "welcome-to-ghost",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070680,
+      "blocks": 440,
+      "atimeMs": 1553041141033.721,
+      "mtimeMs": 1553041137629.763,
+      "ctimeMs": 1553041137629.763,
+      "birthtimeMs": 1553041137629.763,
+      "atime": "2019-03-20T00:19:01.034Z",
+      "mtime": "2019-03-20T00:18:57.630Z",
+      "ctime": "2019-03-20T00:18:57.630Z",
+      "birthtime": "2019-03-20T00:18:57.630Z"
+    },
+    "494da39c-8cfd-5c23-9de9-9d4b73220f74": {
+      "id": "494da39c-8cfd-5c23-9de9-9d4b73220f74",
+      "children": [],
+      "parent": "d3bd123c-bc2b-5c89-afe6-17b1a0fdf6e4",
+      "internal": {
+        "content": "\nBelow is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.\n\n---\n\n# Heading 1\n\n## Heading 2\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5\n\n###### Heading 6\n\n---\n\nLorem ipsum dolor sit amet, [test link]() adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. _This is emphasized._ Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style=\"text-decoration:underline;\">Underline</span>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.\n\nHTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type `COPY filename`. <del>Dinner’s at 5:00.</del> <span style=\"text-decoration:underline;\">Let’s make that 7</span>. This <del>text</del> has been struck.\n\n---\n\n## Media\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n\n### Big Image\n\n![Test Image](img/testimg1.jpg)\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n### Small Image\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n\n![Small Test Image](img/testimg2.jpg)\n\nLabore et dolore.\n\n---\n\n## List Types\n\n### Definition List\n\nDefinition List Title\n: This is a definition list division.\n\nDefinition\n: An exact statement or description of the nature, scope, or meaning of something: _our definition of what constitutes poetry._\n\n### Ordered List\n\n1. List Item 1\n2. List Item 2\n   1. Nested list item A\n   2. Nested list item B\n3. List Item 3\n\n### Unordered List\n\n- List Item 1\n- List Item 2\n  - Nested list item A\n  - Nested list item B\n- List Item 3\n\n---\n\n## Table\n\n| Table Header 1 | Table Header 2 | Table Header 3 |\n| :------------: | :------------: | :------------: |\n| Division 1     | Division 2     | Division 3     |\n| Division 1     | Division 2     | Division 3     |\n| Division 1     | Division 2     | Division 3     |\n\n---\n\n## Preformatted Text\n\nTypographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.\n\n### Code\n\nCode can be presented inline, like `<?php bloginfo('stylesheet_url'); ?>`, or using [jekyll's highlight\nfilter](http://jekyllrb.com/docs/templates/#code-snippet-highlighting) to\nhighlight a block of code. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.\n\n```css\n#container {\n    float: left;\n    margin: 0 -240px 0 0;\n    width: 100%;\n}\n```\n\n---\n\n## Blockquotes\n\nLet’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.\n\n> Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. — [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)\n\nAnd here’s a bit of trailing text.\n\n---\n\n## Text-level semantics\n\nHTML elements\n\n<p>The <a href=\"#\">a element</a> example <br>\nThe <abbr>abbr element</abbr> and <abbr title=\"Title text\">abbr element with title</abbr> examples <br>\nThe <b>b element</b> example <br>\nThe <cite>cite element</cite> example <br>\nThe <code>code element</code> example <br>\nThe <del>del element</del> example <br>\nThe <dfn>dfn element</dfn> and <dfn title=\"Title text\">dfn element with title</dfn> examples <br>\nThe <em>em element</em> example <br>\nThe <i>i element</i> example <br>\nThe <ins>ins element</ins> example <br>\nThe <kbd>kbd element</kbd> example <br>\nThe <mark>mark element</mark> example <br>\nThe <q>q element <q>inside</q> a q element</q> example <br>\nThe <s>s element</s> example <br>\nThe <samp>samp element</samp> example <br>\nThe <small>small element</small> example <br>\nThe <span>span element</span> example <br>\nThe <strong>strong element</strong> example <br>\nThe <sub>sub element</sub> example <br>\nThe <sup>sup element</sup> example <br>\nThe <var>var element</var> example <br>\nThe <u>u element</u> example</p>\n* * *\n\n## Embeds\n\nSometimes all you want to do is embed a little love from another location and set your post alive.\n\n### Video\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n<iframe src=\"//player.vimeo.com/video/103224792\" width=\"600\" height=\"337\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n\n### Slides\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n<script async class=\"speakerdeck-embed\" data-id=\"585245d01ee1013238737e42b879906f\" data-ratio=\"1.77777777777778\" src=\"//speakerdeck.com/assets/embed.js\"></script>\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n### Audio\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n<iframe width=\"100%\" height=\"450\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/52891122&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe>\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n### Code\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.\n\n<p data-height=\"268\" data-theme-id=\"0\" data-slug-hash=\"bcqhe\" data-default-tab=\"result\" data-user=\"rglazebrook\" class='codepen'>See the Pen <a href='http://codepen.io/rglazebrook/pen/bcqhe/'>Simple Rotating Spinner</a> by Rob Glazebrook (<a href='http://codepen.io/rglazebrook'>@rglazebrook</a>) on <a href='http://codepen.io'>CodePen</a>.</p>\n<script async src=\"//assets.codepen.io/assets/embed/ei.js\"></script>\n\nIsn't it beautiful.\n\n*[HTML]: Hyper Text Markup Language\n*[CSS]: Cascading Style Sheets\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "8b1abd8e50e15c9359a5d80fea36c0dc",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "layout": "default-site-plugin",
+          "primaryTag": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "A Full and Comprehensive Style Test",
+        "layout": "post",
+        "image": "img/testimg-cover.jpg",
+        "author": "James DeLay",
+        "date": "2018-09-30T07:03:47.149Z",
+        "tags": [
+          "Tests"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nBelow is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.\n\n---\n\n# Heading 1\n\n## Heading 2\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5\n\n###### Heading 6\n\n---\n\nLorem ipsum dolor sit amet, [test link]() adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. _This is emphasized._ Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style=\"text-decoration:underline;\">Underline</span>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.\n\nHTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type `COPY filename`. <del>Dinner’s at 5:00.</del> <span style=\"text-decoration:underline;\">Let’s make that 7</span>. This <del>text</del> has been struck.\n\n---\n\n## Media\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n\n### Big Image\n\n![Test Image](img/testimg1.jpg)\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n### Small Image\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n\n![Small Test Image](img/testimg2.jpg)\n\nLabore et dolore.\n\n---\n\n## List Types\n\n### Definition List\n\nDefinition List Title\n: This is a definition list division.\n\nDefinition\n: An exact statement or description of the nature, scope, or meaning of something: _our definition of what constitutes poetry._\n\n### Ordered List\n\n1. List Item 1\n2. List Item 2\n   1. Nested list item A\n   2. Nested list item B\n3. List Item 3\n\n### Unordered List\n\n- List Item 1\n- List Item 2\n  - Nested list item A\n  - Nested list item B\n- List Item 3\n\n---\n\n## Table\n\n| Table Header 1 | Table Header 2 | Table Header 3 |\n| :------------: | :------------: | :------------: |\n| Division 1     | Division 2     | Division 3     |\n| Division 1     | Division 2     | Division 3     |\n| Division 1     | Division 2     | Division 3     |\n\n---\n\n## Preformatted Text\n\nTypographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.\n\n### Code\n\nCode can be presented inline, like `<?php bloginfo('stylesheet_url'); ?>`, or using [jekyll's highlight\nfilter](http://jekyllrb.com/docs/templates/#code-snippet-highlighting) to\nhighlight a block of code. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.\n\n```css\n#container {\n    float: left;\n    margin: 0 -240px 0 0;\n    width: 100%;\n}\n```\n\n---\n\n## Blockquotes\n\nLet’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.\n\n> Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. — [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)\n\nAnd here’s a bit of trailing text.\n\n---\n\n## Text-level semantics\n\nHTML elements\n\n<p>The <a href=\"#\">a element</a> example <br>\nThe <abbr>abbr element</abbr> and <abbr title=\"Title text\">abbr element with title</abbr> examples <br>\nThe <b>b element</b> example <br>\nThe <cite>cite element</cite> example <br>\nThe <code>code element</code> example <br>\nThe <del>del element</del> example <br>\nThe <dfn>dfn element</dfn> and <dfn title=\"Title text\">dfn element with title</dfn> examples <br>\nThe <em>em element</em> example <br>\nThe <i>i element</i> example <br>\nThe <ins>ins element</ins> example <br>\nThe <kbd>kbd element</kbd> example <br>\nThe <mark>mark element</mark> example <br>\nThe <q>q element <q>inside</q> a q element</q> example <br>\nThe <s>s element</s> example <br>\nThe <samp>samp element</samp> example <br>\nThe <small>small element</small> example <br>\nThe <span>span element</span> example <br>\nThe <strong>strong element</strong> example <br>\nThe <sub>sub element</sub> example <br>\nThe <sup>sup element</sup> example <br>\nThe <var>var element</var> example <br>\nThe <u>u element</u> example</p>\n* * *\n\n## Embeds\n\nSometimes all you want to do is embed a little love from another location and set your post alive.\n\n### Video\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n<iframe src=\"//player.vimeo.com/video/103224792\" width=\"600\" height=\"337\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n\n### Slides\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n<script async class=\"speakerdeck-embed\" data-id=\"585245d01ee1013238737e42b879906f\" data-ratio=\"1.77777777777778\" src=\"//speakerdeck.com/assets/embed.js\"></script>\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n### Audio\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n<iframe width=\"100%\" height=\"450\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/52891122&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe>\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n### Code\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.\n\n<p data-height=\"268\" data-theme-id=\"0\" data-slug-hash=\"bcqhe\" data-default-tab=\"result\" data-user=\"rglazebrook\" class='codepen'>See the Pen <a href='http://codepen.io/rglazebrook/pen/bcqhe/'>Simple Rotating Spinner</a> by Rob Glazebrook (<a href='http://codepen.io/rglazebrook'>@rglazebrook</a>) on <a href='http://codepen.io'>CodePen</a>.</p>\n<script async src=\"//assets.codepen.io/assets/embed/ei.js\"></script>\n\nIsn't it beautiful.\n\n*[HTML]: Hyper Text Markup Language\n*[CSS]: Cascading Style Sheets\n",
+      "fileAbsolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/a-full-style-test.md",
+      "fields": {
+        "slug": "/a-full-style-test/",
+        "layout": "post",
+        "primaryTag": ""
+      }
+    },
+    "28bed033-cbb3-578b-b561-ba92de315fa1": {
+      "id": "28bed033-cbb3-578b-b561-ba92de315fa1",
+      "children": [],
+      "parent": "219ca916-4ed5-5553-a419-bee81325d734",
+      "internal": {
+        "content": "\n\nAs I engage in the so-called \"bull sessions\" around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the \"brethren\" think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.\n\nIt seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.\n\nEducation must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.\n\nThe function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.\n\nThe late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?\n\nWe must remember that intelligence is not enough. Intelligence plus character--that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.\n\nIf we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, \"brethren!\" Be careful, teachers!",
+        "type": "MarkdownRemark",
+        "contentDigest": "00ee57480863ddc0693a66e55e681cee",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "layout": "default-site-plugin",
+          "primaryTag": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The Purpose of Education",
+        "layout": "post",
+        "author": "James DeLay",
+        "tags": [
+          "Speeches"
+        ],
+        "image": "img/demo4.jpg",
+        "date": "2012-08-20T15:11:55.000Z",
+        "draft": false
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n\nAs I engage in the so-called \"bull sessions\" around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the \"brethren\" think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.\n\nIt seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.\n\nEducation must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.\n\nThe function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.\n\nThe late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?\n\nWe must remember that intelligence is not enough. Intelligence plus character--that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.\n\nIf we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, \"brethren!\" Be careful, teachers!",
+      "fileAbsolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/purpose-of-education.md",
+      "fields": {
+        "slug": "/purpose-of-education/",
+        "layout": "post",
+        "primaryTag": ""
+      }
+    },
+    "2f02dd59-f818-510a-bb42-88f047291789": {
+      "id": "2f02dd59-f818-510a-bb42-88f047291789",
+      "children": [],
+      "parent": "1e6ba140-e523-5da2-af44-e742bb9d5a75",
+      "internal": {
+        "content": "\nFourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.\n\nNow we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.\n\nBut, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
+        "type": "MarkdownRemark",
+        "contentDigest": "b611d36330129bb61c97a33f0512d6c1",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "layout": "default-site-plugin",
+          "primaryTag": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Gettysburg Address",
+        "author": "Sarah Zhao",
+        "tags": [],
+        "image": "img/demo1.jpg",
+        "date": "1863-11-19T10:00:00.000Z",
+        "draft": false
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nFourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.\n\nNow we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.\n\nBut, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
+      "fileAbsolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/gettysburg-address.md",
+      "fields": {
+        "slug": "/gettysburg-address/",
+        "layout": "",
+        "primaryTag": ""
+      }
+    },
+    "speeches": {
+      "id": "speeches",
+      "description": "Some of the greatest words ever spoken.",
+      "image": "img/speeches-cover.jpg",
+      "children": [],
+      "parent": "15b357a4-8ce9-5333-96b6-53fc70865a4a",
+      "internal": {
+        "contentDigest": "6b3b6b401a7d5d0cb9c02ab2fbbfebee",
+        "type": "TagYaml",
+        "owner": "gatsby-transformer-yaml"
+      }
+    },
+    "df237ee0-21aa-593a-a83b-5a4dbc73b10a": {
+      "id": "df237ee0-21aa-593a-a83b-5a4dbc73b10a",
+      "children": [],
+      "parent": "c9158892-c9ce-57bf-8208-8294b21b2f6d",
+      "internal": {
+        "contentDigest": "137c53aaeb1d869ab1c3c94764b1d7fa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "10ed15b7-58b6-586c-b00e-04f22aa6dc84": {
+      "id": "10ed15b7-58b6-586c-b00e-04f22aa6dc84",
+      "children": [
+        "aad15209-dea8-5c3b-b6e1-8425eea20a7c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dd9393d95667d7720e3fee7ce6a2136b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/alex-knight-326705-unsplash.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/alex-knight-326705-unsplash.jpg",
+      "relativePath": "img/alex-knight-326705-unsplash.jpg",
+      "extension": "jpg",
+      "size": 2004105,
+      "prettySize": "2 MB",
+      "modifiedTime": "2019-03-20T00:18:57.626Z",
+      "accessTime": "2019-03-20T00:19:01.026Z",
+      "changeTime": "2019-03-20T00:18:57.626Z",
+      "birthTime": "2019-03-20T00:18:57.626Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "alex-knight-326705-unsplash.jpg",
+      "ext": ".jpg",
+      "name": "alex-knight-326705-unsplash",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070670,
+      "blocks": 3920,
+      "atimeMs": 1553041141025.721,
+      "mtimeMs": 1553041137625.7632,
+      "ctimeMs": 1553041137625.7632,
+      "birthtimeMs": 1553041137625.7632,
+      "atime": "2019-03-20T00:19:01.026Z",
+      "mtime": "2019-03-20T00:18:57.626Z",
+      "ctime": "2019-03-20T00:18:57.626Z",
+      "birthtime": "2019-03-20T00:18:57.626Z"
+    },
+    "aad15209-dea8-5c3b-b6e1-8425eea20a7c": {
+      "id": "aad15209-dea8-5c3b-b6e1-8425eea20a7c",
+      "children": [],
+      "parent": "10ed15b7-58b6-586c-b00e-04f22aa6dc84",
+      "internal": {
+        "contentDigest": "dd9393d95667d7720e3fee7ce6a2136b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /gettysburg-address/": {
+      "jsonName": "gettysburg-address-517",
+      "internalComponentName": "ComponentGettysburgAddress",
+      "path": "/gettysburg-address/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
+      "componentChunkName": "component---src-templates-post-tsx",
+      "context": {
+        "slug": "/gettysburg-address/",
+        "prev": null,
+        "next": {
+          "excerpt": "As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…",
+          "timeToRead": 2,
+          "frontmatter": {
+            "title": "The Purpose of Education",
+            "tags": [
+              "Speeches"
+            ],
+            "date": "2012-08-20T15:11:55.000Z",
+            "draft": false,
+            "image": {
+              "childImageSharp": {
+                "fluid": {
+                  "aspectRatio": 1.5005359056806002,
+                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB3YRjlMv/xAAcEAACAgIDAAAAAAAAAAAAAAABAgADBBETFDP/2gAIAQEAAQUCGTtFyJ2hK614RSA1np//xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAwEBPwGH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BV//EABkQAAIDAQAAAAAAAAAAAAAAAAAhAQIRcf/aAAgBAQAGPwJuRwMobslun//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRMUFhcf/aAAgBAQABPyGjQk5eoTq8mduj8iAb4u5n4NMNGR//2gAMAwEAAgADAAAAEA/P/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBZg9v/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EAbZy//EAB0QAQEAAgEFAAAAAAAAAAAAAAERAEEhMYGhwfD/2gAIAQEAAT8QlhRhAXw6mOoaG0vHzi4F1J74aa1mItwXxKidO+8vhAWf/9k=",
+                  "sizes": "(max-width: 1400px) 100vw, 1400px",
+                  "src": "/static/0a5c2fef6452a3ea59c927e685ed4fae/f759c/demo4.jpg",
+                  "srcSet": "/static/0a5c2fef6452a3ea59c927e685ed4fae/2ff39/demo4.jpg 930w,\n/static/0a5c2fef6452a3ea59c927e685ed4fae/f759c/demo4.jpg 1400w"
+                }
+              }
+            },
+            "author": {
+              "id": "James DeLay",
+              "bio": "Junior Application Developer at Oppenheimer & Co. Inc.",
+              "avatar": {
+                "children": [
+                  {
+                    "fixed": {
+                      "src": "/static/5f2c129e42248a92c87b13b4293950cf/6bb1b/ghost.png"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "fields": {
+            "layout": "post",
+            "slug": "/purpose-of-education/"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
+      "id": "SitePage /gettysburg-address/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e87888fa02b0463b5c073df689550790",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /purpose-of-education/": {
+      "jsonName": "purpose-of-education-ebf",
+      "internalComponentName": "ComponentPurposeOfEducation",
+      "path": "/purpose-of-education/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
+      "componentChunkName": "component---src-templates-post-tsx",
+      "context": {
+        "slug": "/purpose-of-education/",
+        "prev": {
+          "excerpt": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the…",
+          "timeToRead": 1,
+          "frontmatter": {
+            "title": "Gettysburg Address",
+            "tags": [],
+            "date": "1863-11-19T10:00:00.000Z",
+            "draft": false,
+            "image": {
+              "childImageSharp": {
+                "fluid": {
+                  "aspectRatio": 1.5,
+                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABlayjDil43//EABkQAAMBAQEAAAAAAAAAAAAAAAABAhEDEv/aAAgBAQABBQKPWtPXFHOh2yre/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIyIDFR/9oACAEBAAY/AqMrLhp4f//EABkQAAMBAQEAAAAAAAAAAAAAAAABESFR4f/aAAgBAQABPyFkqmQWR0zT4eOGQgEh/9oADAMBAAIAAwAAABAPD//EABYRAQEBAAAAAAAAAAAAAAAAAAABIf/aAAgBAwEBPxCMf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCtr//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExUUFh/9oACAEBAAE/EArtC7yYLXwg8Ncqqi7W97wRZ8yJrhMmfz3P/9k=",
+                  "sizes": "(max-width: 1200px) 100vw, 1200px",
+                  "src": "/static/2cec9ec6dc6f9c79261c1302236d56ad/d6c8a/demo1.jpg",
+                  "srcSet": "/static/2cec9ec6dc6f9c79261c1302236d56ad/2b9a2/demo1.jpg 930w,\n/static/2cec9ec6dc6f9c79261c1302236d56ad/d6c8a/demo1.jpg 1200w"
+                }
+              }
+            },
+            "author": {
+              "id": "Sarah Zhao",
+              "bio": "This is another test author with a profile background image",
+              "avatar": {
+                "children": [
+                  {
+                    "fixed": {
+                      "src": "/static/5f2c129e42248a92c87b13b4293950cf/6bb1b/ghost.png"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "fields": {
+            "layout": "",
+            "slug": "/gettysburg-address/"
+          }
+        },
+        "next": {
+          "excerpt": "Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…",
+          "timeToRead": 4,
+          "frontmatter": {
+            "title": "A Full and Comprehensive Style Test",
+            "tags": [
+              "Tests"
+            ],
+            "date": "2018-09-30T07:03:47.149Z",
+            "draft": null,
+            "image": {
+              "childImageSharp": {
+                "fluid": {
+                  "aspectRatio": 1.5,
+                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAF9fKaNcYC//8QAHRAAAQMFAQAAAAAAAAAAAAAAAQIDIgAEERITIf/aAAgBAQABBQJcU9dQAALhcs0z6z//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGI/8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBUQIQIWH/2gAIAQEABj8CjpPpDQq1i6P/xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhMVFB/9oACAEBAAE/IRwRdvkIiKtO4gDEPIZfAQl2Kicf/9oADAMBAAIAAwAAABBQD//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxBuFP/EABcRAAMBAAAAAAAAAAAAAAAAAAEQESH/2gAIAQIBAT8QFan/xAAbEAEBAAMBAQEAAAAAAAAAAAABEQAhMUFRof/aAAgBAQABPxCpCzfSDcyR7CXwmnu/LzNNAVy30z9pPbbimKQ+uUIIAL8z/9k=",
+                  "sizes": "(max-width: 1080px) 100vw, 1080px",
+                  "src": "/static/2823decbecd34c6071cef2221f03b4ff/71428/testimg-cover.jpg",
+                  "srcSet": "/static/2823decbecd34c6071cef2221f03b4ff/0a772/testimg-cover.jpg 930w,\n/static/2823decbecd34c6071cef2221f03b4ff/71428/testimg-cover.jpg 1080w"
+                }
+              }
+            },
+            "author": {
+              "id": "James DeLay",
+              "bio": "Junior Application Developer at Oppenheimer & Co. Inc.",
+              "avatar": {
+                "children": [
+                  {
+                    "fixed": {
+                      "src": "/static/5f2c129e42248a92c87b13b4293950cf/6bb1b/ghost.png"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "fields": {
+            "layout": "post",
+            "slug": "/a-full-style-test/"
+          }
+        },
+        "primaryTag": "Speeches"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
+      "id": "SitePage /purpose-of-education/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e7f6261e2be8bc695a6be56bdb49a764",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /a-full-style-test/": {
+      "jsonName": "a-full-style-test-d9d",
+      "internalComponentName": "ComponentAFullStyleTest",
+      "path": "/a-full-style-test/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
+      "componentChunkName": "component---src-templates-post-tsx",
+      "context": {
+        "slug": "/a-full-style-test/",
+        "prev": {
+          "excerpt": "As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…",
+          "timeToRead": 2,
+          "frontmatter": {
+            "title": "The Purpose of Education",
+            "tags": [
+              "Speeches"
+            ],
+            "date": "2012-08-20T15:11:55.000Z",
+            "draft": false,
+            "image": {
+              "childImageSharp": {
+                "fluid": {
+                  "aspectRatio": 1.5005359056806002,
+                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB3YRjlMv/xAAcEAACAgIDAAAAAAAAAAAAAAABAgADBBETFDP/2gAIAQEAAQUCGTtFyJ2hK614RSA1np//xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAwEBPwGH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BV//EABkQAAIDAQAAAAAAAAAAAAAAAAAhAQIRcf/aAAgBAQAGPwJuRwMobslun//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRMUFhcf/aAAgBAQABPyGjQk5eoTq8mduj8iAb4u5n4NMNGR//2gAMAwEAAgADAAAAEA/P/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBZg9v/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EAbZy//EAB0QAQEAAgEFAAAAAAAAAAAAAAERAEEhMYGhwfD/2gAIAQEAAT8QlhRhAXw6mOoaG0vHzi4F1J74aa1mItwXxKidO+8vhAWf/9k=",
+                  "sizes": "(max-width: 1400px) 100vw, 1400px",
+                  "src": "/static/0a5c2fef6452a3ea59c927e685ed4fae/f759c/demo4.jpg",
+                  "srcSet": "/static/0a5c2fef6452a3ea59c927e685ed4fae/2ff39/demo4.jpg 930w,\n/static/0a5c2fef6452a3ea59c927e685ed4fae/f759c/demo4.jpg 1400w"
+                }
+              }
+            },
+            "author": {
+              "id": "James DeLay",
+              "bio": "Junior Application Developer at Oppenheimer & Co. Inc.",
+              "avatar": {
+                "children": [
+                  {
+                    "fixed": {
+                      "src": "/static/5f2c129e42248a92c87b13b4293950cf/6bb1b/ghost.png"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "fields": {
+            "layout": "post",
+            "slug": "/purpose-of-education/"
+          }
+        },
+        "next": null,
+        "primaryTag": "Tests"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
+      "id": "SitePage /a-full-style-test/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a0ced2831fb533cb11c4d96aec6646f3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/speeches/": {
+      "jsonName": "tags-speeches-ea3",
+      "internalComponentName": "ComponentTagsSpeeches",
+      "path": "/tags/speeches/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
+      "componentChunkName": "component---src-templates-tags-tsx",
+      "context": {
+        "tag": "Speeches"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
+      "id": "SitePage /tags/speeches/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aa886f0ddf034229d8dd8be789175972",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/tests/": {
+      "jsonName": "tags-tests-c5f",
+      "internalComponentName": "ComponentTagsTests",
+      "path": "/tags/tests/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
+      "componentChunkName": "component---src-templates-tags-tsx",
+      "context": {
+        "tag": "Tests"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
+      "id": "SitePage /tags/tests/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "eb274ae1bae4cb45a82c176c58659ee9",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /author/james-de-lay/": {
+      "jsonName": "author-james-de-lay-1a6",
+      "internalComponentName": "ComponentAuthorJamesDeLay",
+      "path": "/author/james-de-lay/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx",
+      "componentChunkName": "component---src-templates-author-tsx",
+      "context": {
+        "author": "James DeLay"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx",
+      "id": "SitePage /author/james-de-lay/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3a4098868831f6d299b46a6353914708",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /author/sarah-zhao/": {
+      "jsonName": "author-sarah-zhao-81d",
+      "internalComponentName": "ComponentAuthorSarahZhao",
+      "path": "/author/sarah-zhao/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx",
+      "componentChunkName": "component---src-templates-author-tsx",
+      "context": {
+        "author": "Sarah Zhao"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx",
+      "id": "SitePage /author/sarah-zhao/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c21e3d6354ac026686b12999bae901b6",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/pages/404.tsx",
+      "componentChunkName": "component---src-pages-404-tsx",
+      "context": {},
+      "pluginCreator___NODE": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+      "pluginCreatorId": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/pages/404.tsx",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2273890b89d4bfada44f355831b7dc20",
+        "description": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/pages/about.tsx",
+      "componentChunkName": "component---src-pages-about-tsx",
+      "context": {},
+      "pluginCreator___NODE": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+      "pluginCreatorId": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/pages/about.tsx",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "218a954ec58b563e8ecadaee4e774177",
+        "description": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/pages/index.tsx",
+      "componentChunkName": "component---src-pages-index-tsx",
+      "context": {},
+      "pluginCreator___NODE": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+      "pluginCreatorId": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/pages/index.tsx",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5cc2676254efedcd930525585599aeb1",
+        "description": "2a6d7404-9e27-5741-9f55-99c98fded6c9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/pages/404.tsx",
+      "componentChunkName": "component---src-pages-404-tsx",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/pages/404.tsx",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7ebe5a13043055e4b410b9af39971368",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "James DeLay": {
+      "id": "James DeLay",
+      "avatar": "avatars/ghost.png",
+      "bio": "Junior Application Developer at Oppenheimer & Co. Inc.",
+      "twitter": "TryGhost",
+      "website": "https://github.com/JDeLay-JR",
+      "location": "New York, New York",
+      "children": [],
+      "parent": "44c6fd36-734c-598d-aaeb-2021e41c1eea",
+      "internal": {
+        "contentDigest": "a6ea042224e637e852de53f1b24f0f0c",
+        "type": "AuthorYaml",
+        "owner": "gatsby-transformer-yaml"
+      }
+    },
+    "Sarah Zhao": {
+      "id": "Sarah Zhao",
+      "avatar": "avatars/ghost.png",
+      "bio": "This is another test author with a profile background image",
+      "twitter": "TryGhost",
+      "website": "https://ghost.org/",
+      "location": "New York, New York",
+      "profile_image": "img/alex-knight-326705-unsplash.jpg",
+      "children": [],
+      "parent": "44c6fd36-734c-598d-aaeb-2021e41c1eea",
+      "internal": {
+        "contentDigest": "dcde4604fe1b09ce310783f12e22bf51",
+        "type": "AuthorYaml",
+        "owner": "gatsby-transformer-yaml"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "ff5ef764037bcd157d202db24dab94e2"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "4cea55dc-730c-560a-abaa-a1b7b2df9687": [
+        null,
+        null
+      ],
+      "5166521e-2b30-5635-971c-1487cb596f91": [
+        null,
+        null
+      ],
+      "e657fabc-01c3-56bb-bd6d-5855bf976d18": [
+        null,
+        null
+      ],
+      "627fbd6b-1c29-5e61-8bf4-19910c09a4e7": [
+        null,
+        null
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        null
+      ],
+      "AuthorYaml": [
+        null,
+        null
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "gettysburg-address-517": "6/path---gettysburg-address-517-93e-YHrPmR4vb5InHyqKia4WEVkRc",
+    "purpose-of-education-ebf": "868/path---purpose-of-education-ebf-865-RH7LPqF0M0T5ayM1CvHuzrV7U",
+    "a-full-style-test-d9d": "661/path---a-full-style-test-d-9-d-bfe-2bOZ2UE0L27QsVpHoFULjLUfk",
+    "tags-speeches-ea3": "153/path---tags-speeches-ea-3-0d9-0ZRSFiiI3GqhWNvFspAcYXSl2A",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "tags-tests-c5f": "223/path---tags-tests-c-5-f-722-yB2vAk2VmsScIrpuYbj3LIjb1VY",
+    "author-james-de-lay-1a6": "511/path---author-james-de-lay-1-a-6-253-Li0gLflmj0Q9A4dSQin4wP649Q",
+    "author-sarah-zhao-81d": "830/path---author-sarah-zhao-81-d-2a8-qxlXIH6tQD1KJA78WXn9OA90",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx": {
+      "query": "",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx"
+    },
+    "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx": {
+      "query": "",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx"
+    },
+    "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx": {
+      "query": "",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx"
+    },
+    "/home/jim/Documents/BlogSite_2.0/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/.cache/dev-404-page.js"
+    },
+    "/home/jim/Documents/BlogSite_2.0/src/pages/404.tsx": {
+      "query": "",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/pages/404.tsx"
+    },
+    "/home/jim/Documents/BlogSite_2.0/src/pages/about.tsx": {
+      "query": "",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/pages/about.tsx"
+    },
+    "/home/jim/Documents/BlogSite_2.0/src/pages/index.tsx": {
+      "query": "",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/pages/index.tsx"
+    }
+  },
+  "staticQueryComponents": {}
+}
