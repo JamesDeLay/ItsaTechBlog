@@ -15,11 +15,6 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-templates-post-tsx",
-        "jsonName": "a-full-style-test-d9d",
-        "path": "/a-full-style-test/"
-    },
-    {
         "componentChunkName": "component---src-pages-about-tsx",
         "jsonName": "about-f34",
         "path": "/about/"
@@ -41,22 +36,12 @@
     },
     {
         "componentChunkName": "component---src-templates-post-tsx",
-        "jsonName": "gettysburg-address-517",
-        "path": "/gettysburg-address/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-tsx",
-        "jsonName": "purpose-of-education-ebf",
-        "path": "/purpose-of-education/"
+        "jsonName": "k-messed-array-908",
+        "path": "/k-messed-array/"
     },
     {
         "componentChunkName": "component---src-templates-tags-tsx",
-        "jsonName": "tags-speeches-ea3",
-        "path": "/tags/speeches/"
-    },
-    {
-        "componentChunkName": "component---src-templates-tags-tsx",
-        "jsonName": "tags-tests-c5f",
-        "path": "/tags/tests/"
+        "jsonName": "tags-reacto-233",
+        "path": "/tags/reacto/"
     }
 ]

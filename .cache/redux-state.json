@@ -2500,12 +2500,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-20T00:25:33.322Z",
+      "buildTime": "2019-03-20T00:56:13.538Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fd4ccee342563f9e245d83ae0bb1d9ea",
+        "contentDigest": "5d5218bfff2cb3bdddae9a2d9a1dc6a3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2515,7 +2515,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "6688081c2d0df3414a38f1c781fa770f",
+        "contentDigest": "a4b0724545fdd3a83ba6ec74e25d6f7f",
         "type": "Directory",
         "description": "Directory \"src/content\"",
         "owner": "gatsby-source-filesystem"
@@ -2526,10 +2526,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-03-20T00:21:56.836Z",
-      "accessTime": "2019-03-20T00:21:59.888Z",
-      "changeTime": "2019-03-20T00:21:56.836Z",
-      "birthTime": "2019-03-20T00:21:56.836Z",
+      "modifiedTime": "2019-03-20T00:56:00.198Z",
+      "accessTime": "2019-03-20T00:56:00.734Z",
+      "changeTime": "2019-03-20T00:56:00.198Z",
+      "birthTime": "2019-03-20T00:56:00.198Z",
       "root": "/",
       "dir": "/home/jim/Documents/BlogSite_2.0/src",
       "base": "content",
@@ -2545,14 +2545,14 @@
       "blksize": 4096,
       "ino": 4070266,
       "blocks": 8,
-      "atimeMs": 1553041319887.6401,
-      "mtimeMs": 1553041316835.6738,
-      "ctimeMs": 1553041316835.6738,
-      "birthtimeMs": 1553041316835.6738,
-      "atime": "2019-03-20T00:21:59.888Z",
-      "mtime": "2019-03-20T00:21:56.836Z",
-      "ctime": "2019-03-20T00:21:56.836Z",
-      "birthtime": "2019-03-20T00:21:56.836Z"
+      "atimeMs": 1553043360734.3525,
+      "mtimeMs": 1553043360198.3582,
+      "ctimeMs": 1553043360198.3582,
+      "birthtimeMs": 1553043360198.3582,
+      "atime": "2019-03-20T00:56:00.734Z",
+      "mtime": "2019-03-20T00:56:00.198Z",
+      "ctime": "2019-03-20T00:56:00.198Z",
+      "birthtime": "2019-03-20T00:56:00.198Z"
     },
     "cc698781-e7f6-512e-a4c1-8a4b6b1e85cc": {
       "id": "cc698781-e7f6-512e-a4c1-8a4b6b1e85cc",
@@ -2603,7 +2603,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "1ebe7d2cdaa537b813db58714af4e3e5",
+        "contentDigest": "e29ceab0984134a7af8bf4d4c542f8ff",
         "type": "Directory",
         "description": "Directory \"src/content/img\"",
         "owner": "gatsby-source-filesystem"
@@ -2614,10 +2614,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-03-20T00:18:57.630Z",
-      "accessTime": "2019-03-20T00:19:01.034Z",
-      "changeTime": "2019-03-20T00:18:57.630Z",
-      "birthTime": "2019-03-20T00:18:57.630Z",
+      "modifiedTime": "2019-03-20T00:52:04.673Z",
+      "accessTime": "2019-03-20T00:52:04.677Z",
+      "changeTime": "2019-03-20T00:52:04.673Z",
+      "birthTime": "2019-03-20T00:52:04.673Z",
       "root": "/",
       "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
       "base": "img",
@@ -2633,14 +2633,14 @@
       "blksize": 4096,
       "ino": 4070669,
       "blocks": 8,
-      "atimeMs": 1553041141033.721,
-      "mtimeMs": 1553041137629.763,
-      "ctimeMs": 1553041137629.763,
-      "birthtimeMs": 1553041137629.763,
-      "atime": "2019-03-20T00:19:01.034Z",
-      "mtime": "2019-03-20T00:18:57.630Z",
-      "ctime": "2019-03-20T00:18:57.630Z",
-      "birthtime": "2019-03-20T00:18:57.630Z"
+      "atimeMs": 1553043124676.8564,
+      "mtimeMs": 1553043124672.8564,
+      "ctimeMs": 1553043124672.8564,
+      "birthtimeMs": 1553043124672.8564,
+      "atime": "2019-03-20T00:52:04.677Z",
+      "mtime": "2019-03-20T00:52:04.673Z",
+      "ctime": "2019-03-20T00:52:04.673Z",
+      "birthtime": "2019-03-20T00:52:04.673Z"
     },
     "b168b096-da03-5364-a8ad-315359d4ec51": {
       "id": "b168b096-da03-5364-a8ad-315359d4ec51",
@@ -2687,53 +2687,6 @@
       "ctime": "2019-03-20T00:18:57.618Z",
       "birthtime": "2019-03-20T00:18:57.618Z"
     },
-    "d3bd123c-bc2b-5c89-afe6-17b1a0fdf6e4": {
-      "id": "d3bd123c-bc2b-5c89-afe6-17b1a0fdf6e4",
-      "children": [
-        "494da39c-8cfd-5c23-9de9-9d4b73220f74"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "a552f1b02cb85cb8da3d35b1fd75987e",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/content/a-full-style-test.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "content",
-      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/a-full-style-test.md",
-      "relativePath": "a-full-style-test.md",
-      "extension": "md",
-      "size": 6904,
-      "prettySize": "6.9 kB",
-      "modifiedTime": "2019-03-20T00:22:00.420Z",
-      "accessTime": "2019-03-20T00:23:24.467Z",
-      "changeTime": "2019-03-20T00:22:00.420Z",
-      "birthTime": "2019-03-20T00:22:00.420Z",
-      "root": "/",
-      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
-      "base": "a-full-style-test.md",
-      "ext": ".md",
-      "name": "a-full-style-test",
-      "relativeDirectory": "",
-      "dev": 2051,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4070268,
-      "blocks": 16,
-      "atimeMs": 1553041404466.7317,
-      "mtimeMs": 1553041320419.6343,
-      "ctimeMs": 1553041320419.6343,
-      "birthtimeMs": 1553041320419.6343,
-      "atime": "2019-03-20T00:23:24.467Z",
-      "mtime": "2019-03-20T00:22:00.420Z",
-      "ctime": "2019-03-20T00:22:00.420Z",
-      "birthtime": "2019-03-20T00:22:00.420Z"
-    },
     "44c6fd36-734c-598d-aaeb-2021e41c1eea": {
       "id": "44c6fd36-734c-598d-aaeb-2021e41c1eea",
       "children": [
@@ -2742,7 +2695,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "contentDigest": "1b50d43fcc1a280f33573c1c260e0f8a",
         "type": "File",
         "mediaType": "text/yaml",
         "description": "File \"src/content/author.yaml\"",
@@ -2752,12 +2705,12 @@
       "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/author.yaml",
       "relativePath": "author.yaml",
       "extension": "yaml",
-      "size": 0,
-      "prettySize": "0 B",
-      "modifiedTime": "2019-03-20T00:26:26.965Z",
-      "accessTime": "2019-03-20T00:23:40.059Z",
-      "changeTime": "2019-03-20T00:26:26.965Z",
-      "birthTime": "2019-03-20T00:26:26.965Z",
+      "size": 642,
+      "prettySize": "642 B",
+      "modifiedTime": "2019-03-20T00:39:06.786Z",
+      "accessTime": "2019-03-20T00:39:07.058Z",
+      "changeTime": "2019-03-20T00:39:06.786Z",
+      "birthTime": "2019-03-20T00:39:06.786Z",
       "root": "/",
       "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
       "base": "author.yaml",
@@ -2772,118 +2725,22 @@
       "rdev": 0,
       "blksize": 4096,
       "ino": 4070269,
-      "blocks": 0,
-      "atimeMs": 1553041420058.5686,
-      "mtimeMs": 1553041586964.895,
-      "ctimeMs": 1553041586964.895,
-      "birthtimeMs": 1553041586964.895,
-      "atime": "2019-03-20T00:23:40.059Z",
-      "mtime": "2019-03-20T00:26:26.965Z",
-      "ctime": "2019-03-20T00:26:26.965Z",
-      "birthtime": "2019-03-20T00:26:26.965Z"
-    },
-    "219ca916-4ed5-5553-a419-bee81325d734": {
-      "id": "219ca916-4ed5-5553-a419-bee81325d734",
-      "children": [
-        "28bed033-cbb3-578b-b561-ba92de315fa1"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "92cd70a899528fe87311a9fc6bf64bcb",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/content/purpose-of-education.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "content",
-      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/purpose-of-education.md",
-      "relativePath": "purpose-of-education.md",
-      "extension": "md",
-      "size": 2796,
-      "prettySize": "2.8 kB",
-      "modifiedTime": "2019-03-20T00:22:00.420Z",
-      "accessTime": "2019-03-20T00:22:00.700Z",
-      "changeTime": "2019-03-20T00:22:00.420Z",
-      "birthTime": "2019-03-20T00:22:00.420Z",
-      "root": "/",
-      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
-      "base": "purpose-of-education.md",
-      "ext": ".md",
-      "name": "purpose-of-education",
-      "relativeDirectory": "",
-      "dev": 2051,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4070696,
       "blocks": 8,
-      "atimeMs": 1553041320699.6313,
-      "mtimeMs": 1553041320419.6343,
-      "ctimeMs": 1553041320419.6343,
-      "birthtimeMs": 1553041320419.6343,
-      "atime": "2019-03-20T00:22:00.700Z",
-      "mtime": "2019-03-20T00:22:00.420Z",
-      "ctime": "2019-03-20T00:22:00.420Z",
-      "birthtime": "2019-03-20T00:22:00.420Z"
-    },
-    "1e6ba140-e523-5da2-af44-e742bb9d5a75": {
-      "id": "1e6ba140-e523-5da2-af44-e742bb9d5a75",
-      "children": [
-        "2f02dd59-f818-510a-bb42-88f047291789"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "ca63725cb54a74b2b9890dfba3bca543",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/content/gettysburg-address.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "content",
-      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/gettysburg-address.md",
-      "relativePath": "gettysburg-address.md",
-      "extension": "md",
-      "size": 1584,
-      "prettySize": "1.58 kB",
-      "modifiedTime": "2019-03-20T00:23:11.891Z",
-      "accessTime": "2019-03-20T00:23:11.919Z",
-      "changeTime": "2019-03-20T00:23:11.891Z",
-      "birthTime": "2019-03-20T00:23:11.891Z",
-      "root": "/",
-      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
-      "base": "gettysburg-address.md",
-      "ext": ".md",
-      "name": "gettysburg-address",
-      "relativeDirectory": "",
-      "dev": 2051,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4070668,
-      "blocks": 8,
-      "atimeMs": 1553041391918.864,
-      "mtimeMs": 1553041391890.8643,
-      "ctimeMs": 1553041391890.8643,
-      "birthtimeMs": 1553041391890.8643,
-      "atime": "2019-03-20T00:23:11.919Z",
-      "mtime": "2019-03-20T00:23:11.891Z",
-      "ctime": "2019-03-20T00:23:11.891Z",
-      "birthtime": "2019-03-20T00:23:11.891Z"
+      "atimeMs": 1553042347058.2402,
+      "mtimeMs": 1553042346786.2424,
+      "ctimeMs": 1553042346786.2424,
+      "birthtimeMs": 1553042346786.2424,
+      "atime": "2019-03-20T00:39:07.058Z",
+      "mtime": "2019-03-20T00:39:06.786Z",
+      "ctime": "2019-03-20T00:39:06.786Z",
+      "birthtime": "2019-03-20T00:39:06.786Z"
     },
     "15b357a4-8ce9-5333-96b6-53fc70865a4a": {
       "id": "15b357a4-8ce9-5333-96b6-53fc70865a4a",
-      "children": [
-        "speeches"
-      ],
+      "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "cf19cd0ea161a4e6ec69dced98046cf4",
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
         "type": "File",
         "mediaType": "text/yaml",
         "description": "File \"src/content/tag.yaml\"",
@@ -2893,12 +2750,12 @@
       "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/tag.yaml",
       "relativePath": "tag.yaml",
       "extension": "yaml",
-      "size": 101,
-      "prettySize": "101 B",
-      "modifiedTime": "2019-03-20T00:18:57.630Z",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-03-20T00:57:28.261Z",
       "accessTime": "2019-03-20T00:19:01.034Z",
-      "changeTime": "2019-03-20T00:18:57.630Z",
-      "birthTime": "2019-03-20T00:18:57.630Z",
+      "changeTime": "2019-03-20T00:57:28.261Z",
+      "birthTime": "2019-03-20T00:57:28.261Z",
       "root": "/",
       "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
       "base": "tag.yaml",
@@ -2913,15 +2770,15 @@
       "rdev": 0,
       "blksize": 4096,
       "ino": 4070922,
-      "blocks": 8,
+      "blocks": 0,
       "atimeMs": 1553041141033.721,
-      "mtimeMs": 1553041137629.763,
-      "ctimeMs": 1553041137629.763,
-      "birthtimeMs": 1553041137629.763,
+      "mtimeMs": 1553043448261.4702,
+      "ctimeMs": 1553043448261.4702,
+      "birthtimeMs": 1553043448261.4702,
       "atime": "2019-03-20T00:19:01.034Z",
-      "mtime": "2019-03-20T00:18:57.630Z",
-      "ctime": "2019-03-20T00:18:57.630Z",
-      "birthtime": "2019-03-20T00:18:57.630Z"
+      "mtime": "2019-03-20T00:57:28.261Z",
+      "ctime": "2019-03-20T00:57:28.261Z",
+      "birthtime": "2019-03-20T00:57:28.261Z"
     },
     "5166521e-2b30-5635-971c-1487cb596f91": {
       "id": "5166521e-2b30-5635-971c-1487cb596f91",
@@ -3597,119 +3454,6 @@
       "ctime": "2019-03-20T00:18:57.630Z",
       "birthtime": "2019-03-20T00:18:57.630Z"
     },
-    "494da39c-8cfd-5c23-9de9-9d4b73220f74": {
-      "id": "494da39c-8cfd-5c23-9de9-9d4b73220f74",
-      "children": [],
-      "parent": "d3bd123c-bc2b-5c89-afe6-17b1a0fdf6e4",
-      "internal": {
-        "content": "\nBelow is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.\n\n---\n\n# Heading 1\n\n## Heading 2\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5\n\n###### Heading 6\n\n---\n\nLorem ipsum dolor sit amet, [test link]() adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. _This is emphasized._ Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style=\"text-decoration:underline;\">Underline</span>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.\n\nHTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type `COPY filename`. <del>Dinner’s at 5:00.</del> <span style=\"text-decoration:underline;\">Let’s make that 7</span>. This <del>text</del> has been struck.\n\n---\n\n## Media\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n\n### Big Image\n\n![Test Image](img/testimg1.jpg)\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n### Small Image\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n\n![Small Test Image](img/testimg2.jpg)\n\nLabore et dolore.\n\n---\n\n## List Types\n\n### Definition List\n\nDefinition List Title\n: This is a definition list division.\n\nDefinition\n: An exact statement or description of the nature, scope, or meaning of something: _our definition of what constitutes poetry._\n\n### Ordered List\n\n1. List Item 1\n2. List Item 2\n   1. Nested list item A\n   2. Nested list item B\n3. List Item 3\n\n### Unordered List\n\n- List Item 1\n- List Item 2\n  - Nested list item A\n  - Nested list item B\n- List Item 3\n\n---\n\n## Table\n\n| Table Header 1 | Table Header 2 | Table Header 3 |\n| :------------: | :------------: | :------------: |\n| Division 1     | Division 2     | Division 3     |\n| Division 1     | Division 2     | Division 3     |\n| Division 1     | Division 2     | Division 3     |\n\n---\n\n## Preformatted Text\n\nTypographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.\n\n### Code\n\nCode can be presented inline, like `<?php bloginfo('stylesheet_url'); ?>`, or using [jekyll's highlight\nfilter](http://jekyllrb.com/docs/templates/#code-snippet-highlighting) to\nhighlight a block of code. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.\n\n```css\n#container {\n    float: left;\n    margin: 0 -240px 0 0;\n    width: 100%;\n}\n```\n\n---\n\n## Blockquotes\n\nLet’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.\n\n> Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. — [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)\n\nAnd here’s a bit of trailing text.\n\n---\n\n## Text-level semantics\n\nHTML elements\n\n<p>The <a href=\"#\">a element</a> example <br>\nThe <abbr>abbr element</abbr> and <abbr title=\"Title text\">abbr element with title</abbr> examples <br>\nThe <b>b element</b> example <br>\nThe <cite>cite element</cite> example <br>\nThe <code>code element</code> example <br>\nThe <del>del element</del> example <br>\nThe <dfn>dfn element</dfn> and <dfn title=\"Title text\">dfn element with title</dfn> examples <br>\nThe <em>em element</em> example <br>\nThe <i>i element</i> example <br>\nThe <ins>ins element</ins> example <br>\nThe <kbd>kbd element</kbd> example <br>\nThe <mark>mark element</mark> example <br>\nThe <q>q element <q>inside</q> a q element</q> example <br>\nThe <s>s element</s> example <br>\nThe <samp>samp element</samp> example <br>\nThe <small>small element</small> example <br>\nThe <span>span element</span> example <br>\nThe <strong>strong element</strong> example <br>\nThe <sub>sub element</sub> example <br>\nThe <sup>sup element</sup> example <br>\nThe <var>var element</var> example <br>\nThe <u>u element</u> example</p>\n* * *\n\n## Embeds\n\nSometimes all you want to do is embed a little love from another location and set your post alive.\n\n### Video\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n<iframe src=\"//player.vimeo.com/video/103224792\" width=\"600\" height=\"337\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n\n### Slides\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n<script async class=\"speakerdeck-embed\" data-id=\"585245d01ee1013238737e42b879906f\" data-ratio=\"1.77777777777778\" src=\"//speakerdeck.com/assets/embed.js\"></script>\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n### Audio\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n<iframe width=\"100%\" height=\"450\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/52891122&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe>\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n### Code\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.\n\n<p data-height=\"268\" data-theme-id=\"0\" data-slug-hash=\"bcqhe\" data-default-tab=\"result\" data-user=\"rglazebrook\" class='codepen'>See the Pen <a href='http://codepen.io/rglazebrook/pen/bcqhe/'>Simple Rotating Spinner</a> by Rob Glazebrook (<a href='http://codepen.io/rglazebrook'>@rglazebrook</a>) on <a href='http://codepen.io'>CodePen</a>.</p>\n<script async src=\"//assets.codepen.io/assets/embed/ei.js\"></script>\n\nIsn't it beautiful.\n\n*[HTML]: Hyper Text Markup Language\n*[CSS]: Cascading Style Sheets\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "8b1abd8e50e15c9359a5d80fea36c0dc",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin",
-          "layout": "default-site-plugin",
-          "primaryTag": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "A Full and Comprehensive Style Test",
-        "layout": "post",
-        "image": "img/testimg-cover.jpg",
-        "author": "James DeLay",
-        "date": "2018-09-30T07:03:47.149Z",
-        "tags": [
-          "Tests"
-        ]
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nBelow is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.\n\n---\n\n# Heading 1\n\n## Heading 2\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5\n\n###### Heading 6\n\n---\n\nLorem ipsum dolor sit amet, [test link]() adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. _This is emphasized._ Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style=\"text-decoration:underline;\">Underline</span>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.\n\nHTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type `COPY filename`. <del>Dinner’s at 5:00.</del> <span style=\"text-decoration:underline;\">Let’s make that 7</span>. This <del>text</del> has been struck.\n\n---\n\n## Media\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n\n### Big Image\n\n![Test Image](img/testimg1.jpg)\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n### Small Image\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n\n![Small Test Image](img/testimg2.jpg)\n\nLabore et dolore.\n\n---\n\n## List Types\n\n### Definition List\n\nDefinition List Title\n: This is a definition list division.\n\nDefinition\n: An exact statement or description of the nature, scope, or meaning of something: _our definition of what constitutes poetry._\n\n### Ordered List\n\n1. List Item 1\n2. List Item 2\n   1. Nested list item A\n   2. Nested list item B\n3. List Item 3\n\n### Unordered List\n\n- List Item 1\n- List Item 2\n  - Nested list item A\n  - Nested list item B\n- List Item 3\n\n---\n\n## Table\n\n| Table Header 1 | Table Header 2 | Table Header 3 |\n| :------------: | :------------: | :------------: |\n| Division 1     | Division 2     | Division 3     |\n| Division 1     | Division 2     | Division 3     |\n| Division 1     | Division 2     | Division 3     |\n\n---\n\n## Preformatted Text\n\nTypographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.\n\n### Code\n\nCode can be presented inline, like `<?php bloginfo('stylesheet_url'); ?>`, or using [jekyll's highlight\nfilter](http://jekyllrb.com/docs/templates/#code-snippet-highlighting) to\nhighlight a block of code. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.\n\n```css\n#container {\n    float: left;\n    margin: 0 -240px 0 0;\n    width: 100%;\n}\n```\n\n---\n\n## Blockquotes\n\nLet’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.\n\n> Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. — [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)\n\nAnd here’s a bit of trailing text.\n\n---\n\n## Text-level semantics\n\nHTML elements\n\n<p>The <a href=\"#\">a element</a> example <br>\nThe <abbr>abbr element</abbr> and <abbr title=\"Title text\">abbr element with title</abbr> examples <br>\nThe <b>b element</b> example <br>\nThe <cite>cite element</cite> example <br>\nThe <code>code element</code> example <br>\nThe <del>del element</del> example <br>\nThe <dfn>dfn element</dfn> and <dfn title=\"Title text\">dfn element with title</dfn> examples <br>\nThe <em>em element</em> example <br>\nThe <i>i element</i> example <br>\nThe <ins>ins element</ins> example <br>\nThe <kbd>kbd element</kbd> example <br>\nThe <mark>mark element</mark> example <br>\nThe <q>q element <q>inside</q> a q element</q> example <br>\nThe <s>s element</s> example <br>\nThe <samp>samp element</samp> example <br>\nThe <small>small element</small> example <br>\nThe <span>span element</span> example <br>\nThe <strong>strong element</strong> example <br>\nThe <sub>sub element</sub> example <br>\nThe <sup>sup element</sup> example <br>\nThe <var>var element</var> example <br>\nThe <u>u element</u> example</p>\n* * *\n\n## Embeds\n\nSometimes all you want to do is embed a little love from another location and set your post alive.\n\n### Video\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n<iframe src=\"//player.vimeo.com/video/103224792\" width=\"600\" height=\"337\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n\n### Slides\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n<script async class=\"speakerdeck-embed\" data-id=\"585245d01ee1013238737e42b879906f\" data-ratio=\"1.77777777777778\" src=\"//speakerdeck.com/assets/embed.js\"></script>\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n### Audio\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n<iframe width=\"100%\" height=\"450\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/52891122&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe>\n\nCulpa qui officia deserunt mollit anim id est laborum.\n\n### Code\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.\n\n<p data-height=\"268\" data-theme-id=\"0\" data-slug-hash=\"bcqhe\" data-default-tab=\"result\" data-user=\"rglazebrook\" class='codepen'>See the Pen <a href='http://codepen.io/rglazebrook/pen/bcqhe/'>Simple Rotating Spinner</a> by Rob Glazebrook (<a href='http://codepen.io/rglazebrook'>@rglazebrook</a>) on <a href='http://codepen.io'>CodePen</a>.</p>\n<script async src=\"//assets.codepen.io/assets/embed/ei.js\"></script>\n\nIsn't it beautiful.\n\n*[HTML]: Hyper Text Markup Language\n*[CSS]: Cascading Style Sheets\n",
-      "fileAbsolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/a-full-style-test.md",
-      "fields": {
-        "slug": "/a-full-style-test/",
-        "layout": "post",
-        "primaryTag": ""
-      }
-    },
-    "28bed033-cbb3-578b-b561-ba92de315fa1": {
-      "id": "28bed033-cbb3-578b-b561-ba92de315fa1",
-      "children": [],
-      "parent": "219ca916-4ed5-5553-a419-bee81325d734",
-      "internal": {
-        "content": "\n\nAs I engage in the so-called \"bull sessions\" around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the \"brethren\" think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.\n\nIt seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.\n\nEducation must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.\n\nThe function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.\n\nThe late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?\n\nWe must remember that intelligence is not enough. Intelligence plus character--that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.\n\nIf we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, \"brethren!\" Be careful, teachers!",
-        "type": "MarkdownRemark",
-        "contentDigest": "00ee57480863ddc0693a66e55e681cee",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin",
-          "layout": "default-site-plugin",
-          "primaryTag": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "The Purpose of Education",
-        "layout": "post",
-        "author": "James DeLay",
-        "tags": [
-          "Speeches"
-        ],
-        "image": "img/demo4.jpg",
-        "date": "2012-08-20T15:11:55.000Z",
-        "draft": false
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n\nAs I engage in the so-called \"bull sessions\" around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the \"brethren\" think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.\n\nIt seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.\n\nEducation must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.\n\nThe function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.\n\nThe late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?\n\nWe must remember that intelligence is not enough. Intelligence plus character--that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.\n\nIf we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, \"brethren!\" Be careful, teachers!",
-      "fileAbsolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/purpose-of-education.md",
-      "fields": {
-        "slug": "/purpose-of-education/",
-        "layout": "post",
-        "primaryTag": ""
-      }
-    },
-    "2f02dd59-f818-510a-bb42-88f047291789": {
-      "id": "2f02dd59-f818-510a-bb42-88f047291789",
-      "children": [],
-      "parent": "1e6ba140-e523-5da2-af44-e742bb9d5a75",
-      "internal": {
-        "content": "\nFourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.\n\nNow we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.\n\nBut, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
-        "type": "MarkdownRemark",
-        "contentDigest": "b611d36330129bb61c97a33f0512d6c1",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin",
-          "layout": "default-site-plugin",
-          "primaryTag": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Gettysburg Address",
-        "author": "Sarah Zhao",
-        "tags": [],
-        "image": "img/demo1.jpg",
-        "date": "1863-11-19T10:00:00.000Z",
-        "draft": false
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nFourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.\n\nNow we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.\n\nBut, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
-      "fileAbsolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/gettysburg-address.md",
-      "fields": {
-        "slug": "/gettysburg-address/",
-        "layout": "",
-        "primaryTag": ""
-      }
-    },
-    "speeches": {
-      "id": "speeches",
-      "description": "Some of the greatest words ever spoken.",
-      "image": "img/speeches-cover.jpg",
-      "children": [],
-      "parent": "15b357a4-8ce9-5333-96b6-53fc70865a4a",
-      "internal": {
-        "contentDigest": "6b3b6b401a7d5d0cb9c02ab2fbbfebee",
-        "type": "TagYaml",
-        "owner": "gatsby-transformer-yaml"
-      }
-    },
     "df237ee0-21aa-593a-a83b-5a4dbc73b10a": {
       "id": "df237ee0-21aa-593a-a83b-5a4dbc73b10a",
       "children": [],
@@ -3777,320 +3521,143 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /gettysburg-address/": {
-      "jsonName": "gettysburg-address-517",
-      "internalComponentName": "ComponentGettysburgAddress",
-      "path": "/gettysburg-address/",
-      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
-      "componentChunkName": "component---src-templates-post-tsx",
-      "context": {
-        "slug": "/gettysburg-address/",
-        "prev": null,
-        "next": {
-          "excerpt": "As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…",
-          "timeToRead": 2,
-          "frontmatter": {
-            "title": "The Purpose of Education",
-            "tags": [
-              "Speeches"
-            ],
-            "date": "2012-08-20T15:11:55.000Z",
-            "draft": false,
-            "image": {
-              "childImageSharp": {
-                "fluid": {
-                  "aspectRatio": 1.5005359056806002,
-                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB3YRjlMv/xAAcEAACAgIDAAAAAAAAAAAAAAABAgADBBETFDP/2gAIAQEAAQUCGTtFyJ2hK614RSA1np//xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAwEBPwGH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BV//EABkQAAIDAQAAAAAAAAAAAAAAAAAhAQIRcf/aAAgBAQAGPwJuRwMobslun//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRMUFhcf/aAAgBAQABPyGjQk5eoTq8mduj8iAb4u5n4NMNGR//2gAMAwEAAgADAAAAEA/P/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBZg9v/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EAbZy//EAB0QAQEAAgEFAAAAAAAAAAAAAAERAEEhMYGhwfD/2gAIAQEAAT8QlhRhAXw6mOoaG0vHzi4F1J74aa1mItwXxKidO+8vhAWf/9k=",
-                  "sizes": "(max-width: 1400px) 100vw, 1400px",
-                  "src": "/static/0a5c2fef6452a3ea59c927e685ed4fae/f759c/demo4.jpg",
-                  "srcSet": "/static/0a5c2fef6452a3ea59c927e685ed4fae/2ff39/demo4.jpg 930w,\n/static/0a5c2fef6452a3ea59c927e685ed4fae/f759c/demo4.jpg 1400w"
-                }
-              }
-            },
-            "author": {
-              "id": "James DeLay",
-              "bio": "Junior Application Developer at Oppenheimer & Co. Inc.",
-              "avatar": {
-                "children": [
-                  {
-                    "fixed": {
-                      "src": "/static/5f2c129e42248a92c87b13b4293950cf/6bb1b/ghost.png"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "fields": {
-            "layout": "post",
-            "slug": "/purpose-of-education/"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
-      "id": "SitePage /gettysburg-address/",
+    "2cb37aec-d858-5e09-aa95-b3fe065c3694": {
+      "id": "2cb37aec-d858-5e09-aa95-b3fe065c3694",
+      "children": [
+        "fee461f8-7dc3-5f90-96a1-2487d440cab8"
+      ],
       "parent": null,
-      "children": [],
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "e87888fa02b0463b5c073df689550790",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/k-messed-array.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/k-messed-array.md",
+      "relativePath": "k-messed-array.md",
+      "extension": "md",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-03-20T00:57:37.501Z",
+      "accessTime": "2019-03-20T00:55:32.647Z",
+      "changeTime": "2019-03-20T00:57:37.501Z",
+      "birthTime": "2019-03-20T00:57:37.501Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
+      "base": "k-messed-array.md",
+      "ext": ".md",
+      "name": "k-messed-array",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070958,
+      "blocks": 0,
+      "atimeMs": 1553043332646.6404,
+      "mtimeMs": 1553043457501.3782,
+      "ctimeMs": 1553043457501.3782,
+      "birthtimeMs": 1553043457501.3782,
+      "atime": "2019-03-20T00:55:32.647Z",
+      "mtime": "2019-03-20T00:57:37.501Z",
+      "ctime": "2019-03-20T00:57:37.501Z",
+      "birthtime": "2019-03-20T00:57:37.501Z"
+    },
+    "James DeLay": {
+      "id": "James DeLay",
+      "avatar": "avatars/ghost.png",
+      "bio": "Junior Application Developer at Oppenheimer & Co. Inc.",
+      "twitter": "TryGhost",
+      "linkedIn": "https://www.linkedin.com/in/jdelayjr/",
+      "github": "https://github.com/JDeLay-JR",
+      "website": "https://github.com/JDeLay-JR",
+      "location": "New York, New York",
+      "children": [],
+      "parent": "44c6fd36-734c-598d-aaeb-2021e41c1eea",
+      "internal": {
+        "contentDigest": "3116db649bb80e3f0d3276af386b3e74",
+        "type": "AuthorYaml",
+        "owner": "gatsby-transformer-yaml"
       }
     },
-    "SitePage /purpose-of-education/": {
-      "jsonName": "purpose-of-education-ebf",
-      "internalComponentName": "ComponentPurposeOfEducation",
-      "path": "/purpose-of-education/",
-      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
-      "componentChunkName": "component---src-templates-post-tsx",
-      "context": {
-        "slug": "/purpose-of-education/",
-        "prev": {
-          "excerpt": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the…",
-          "timeToRead": 1,
-          "frontmatter": {
-            "title": "Gettysburg Address",
-            "tags": [],
-            "date": "1863-11-19T10:00:00.000Z",
-            "draft": false,
-            "image": {
-              "childImageSharp": {
-                "fluid": {
-                  "aspectRatio": 1.5,
-                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABlayjDil43//EABkQAAMBAQEAAAAAAAAAAAAAAAABAhEDEv/aAAgBAQABBQKPWtPXFHOh2yre/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIyIDFR/9oACAEBAAY/AqMrLhp4f//EABkQAAMBAQEAAAAAAAAAAAAAAAABESFR4f/aAAgBAQABPyFkqmQWR0zT4eOGQgEh/9oADAMBAAIAAwAAABAPD//EABYRAQEBAAAAAAAAAAAAAAAAAAABIf/aAAgBAwEBPxCMf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCtr//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExUUFh/9oACAEBAAE/EArtC7yYLXwg8Ncqqi7W97wRZ8yJrhMmfz3P/9k=",
-                  "sizes": "(max-width: 1200px) 100vw, 1200px",
-                  "src": "/static/2cec9ec6dc6f9c79261c1302236d56ad/d6c8a/demo1.jpg",
-                  "srcSet": "/static/2cec9ec6dc6f9c79261c1302236d56ad/2b9a2/demo1.jpg 930w,\n/static/2cec9ec6dc6f9c79261c1302236d56ad/d6c8a/demo1.jpg 1200w"
-                }
-              }
-            },
-            "author": {
-              "id": "Sarah Zhao",
-              "bio": "This is another test author with a profile background image",
-              "avatar": {
-                "children": [
-                  {
-                    "fixed": {
-                      "src": "/static/5f2c129e42248a92c87b13b4293950cf/6bb1b/ghost.png"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "fields": {
-            "layout": "",
-            "slug": "/gettysburg-address/"
-          }
-        },
-        "next": {
-          "excerpt": "Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…",
-          "timeToRead": 4,
-          "frontmatter": {
-            "title": "A Full and Comprehensive Style Test",
-            "tags": [
-              "Tests"
-            ],
-            "date": "2018-09-30T07:03:47.149Z",
-            "draft": null,
-            "image": {
-              "childImageSharp": {
-                "fluid": {
-                  "aspectRatio": 1.5,
-                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAF9fKaNcYC//8QAHRAAAQMFAQAAAAAAAAAAAAAAAQIDIgAEERITIf/aAAgBAQABBQJcU9dQAALhcs0z6z//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGI/8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBUQIQIWH/2gAIAQEABj8CjpPpDQq1i6P/xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhMVFB/9oACAEBAAE/IRwRdvkIiKtO4gDEPIZfAQl2Kicf/9oADAMBAAIAAwAAABBQD//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxBuFP/EABcRAAMBAAAAAAAAAAAAAAAAAAEQESH/2gAIAQIBAT8QFan/xAAbEAEBAAMBAQEAAAAAAAAAAAABEQAhMUFRof/aAAgBAQABPxCpCzfSDcyR7CXwmnu/LzNNAVy30z9pPbbimKQ+uUIIAL8z/9k=",
-                  "sizes": "(max-width: 1080px) 100vw, 1080px",
-                  "src": "/static/2823decbecd34c6071cef2221f03b4ff/71428/testimg-cover.jpg",
-                  "srcSet": "/static/2823decbecd34c6071cef2221f03b4ff/0a772/testimg-cover.jpg 930w,\n/static/2823decbecd34c6071cef2221f03b4ff/71428/testimg-cover.jpg 1080w"
-                }
-              }
-            },
-            "author": {
-              "id": "James DeLay",
-              "bio": "Junior Application Developer at Oppenheimer & Co. Inc.",
-              "avatar": {
-                "children": [
-                  {
-                    "fixed": {
-                      "src": "/static/5f2c129e42248a92c87b13b4293950cf/6bb1b/ghost.png"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "fields": {
-            "layout": "post",
-            "slug": "/a-full-style-test/"
-          }
-        },
-        "primaryTag": "Speeches"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
-      "id": "SitePage /purpose-of-education/",
-      "parent": null,
+    "Sarah Zhao": {
+      "id": "Sarah Zhao",
+      "avatar": "avatars/ghost.png",
+      "bio": "This is another test author with a profile background image",
+      "twitter": "TryGhost",
+      "linkedIn": "https://www.linkedin.com/in/sarah-zhao-025/",
+      "github": "https://github.com/sarahzhao25",
+      "website": "https://sarahzhao25.github.io/",
+      "location": "New York, New York",
+      "profile_image": "img/alex-knight-326705-unsplash.jpg",
       "children": [],
+      "parent": "44c6fd36-734c-598d-aaeb-2021e41c1eea",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "e7f6261e2be8bc695a6be56bdb49a764",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
+        "contentDigest": "b9bff46556269ce2bb7c5cac07dc54fc",
+        "type": "AuthorYaml",
+        "owner": "gatsby-transformer-yaml"
       }
     },
-    "SitePage /a-full-style-test/": {
-      "jsonName": "a-full-style-test-d9d",
-      "internalComponentName": "ComponentAFullStyleTest",
-      "path": "/a-full-style-test/",
-      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
-      "componentChunkName": "component---src-templates-post-tsx",
-      "context": {
-        "slug": "/a-full-style-test/",
-        "prev": {
-          "excerpt": "As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…",
-          "timeToRead": 2,
-          "frontmatter": {
-            "title": "The Purpose of Education",
-            "tags": [
-              "Speeches"
-            ],
-            "date": "2012-08-20T15:11:55.000Z",
-            "draft": false,
-            "image": {
-              "childImageSharp": {
-                "fluid": {
-                  "aspectRatio": 1.5005359056806002,
-                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB3YRjlMv/xAAcEAACAgIDAAAAAAAAAAAAAAABAgADBBETFDP/2gAIAQEAAQUCGTtFyJ2hK614RSA1np//xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAwEBPwGH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BV//EABkQAAIDAQAAAAAAAAAAAAAAAAAhAQIRcf/aAAgBAQAGPwJuRwMobslun//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRMUFhcf/aAAgBAQABPyGjQk5eoTq8mduj8iAb4u5n4NMNGR//2gAMAwEAAgADAAAAEA/P/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBZg9v/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EAbZy//EAB0QAQEAAgEFAAAAAAAAAAAAAAERAEEhMYGhwfD/2gAIAQEAAT8QlhRhAXw6mOoaG0vHzi4F1J74aa1mItwXxKidO+8vhAWf/9k=",
-                  "sizes": "(max-width: 1400px) 100vw, 1400px",
-                  "src": "/static/0a5c2fef6452a3ea59c927e685ed4fae/f759c/demo4.jpg",
-                  "srcSet": "/static/0a5c2fef6452a3ea59c927e685ed4fae/2ff39/demo4.jpg 930w,\n/static/0a5c2fef6452a3ea59c927e685ed4fae/f759c/demo4.jpg 1400w"
-                }
-              }
-            },
-            "author": {
-              "id": "James DeLay",
-              "bio": "Junior Application Developer at Oppenheimer & Co. Inc.",
-              "avatar": {
-                "children": [
-                  {
-                    "fixed": {
-                      "src": "/static/5f2c129e42248a92c87b13b4293950cf/6bb1b/ghost.png"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "fields": {
-            "layout": "post",
-            "slug": "/purpose-of-education/"
-          }
-        },
-        "next": null,
-        "primaryTag": "Tests"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
-      "id": "SitePage /a-full-style-test/",
+    "65f7522c-4288-5c55-ac33-4790b121e938": {
+      "id": "65f7522c-4288-5c55-ac33-4790b121e938",
+      "children": [
+        "f2fedb43-6d66-5a02-9856-67aa91e27120"
+      ],
       "parent": null,
-      "children": [],
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "a0ced2831fb533cb11c4d96aec6646f3",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
+        "contentDigest": "b1ad6efb83aab4c297a31df66ba1fa01",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/img/reacto.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/img/reacto.jpg",
+      "relativePath": "img/reacto.jpg",
+      "extension": "jpg",
+      "size": 832617,
+      "prettySize": "833 kB",
+      "modifiedTime": "2019-03-20T00:52:04.677Z",
+      "accessTime": "2019-03-20T00:52:04.681Z",
+      "changeTime": "2019-03-20T00:52:04.677Z",
+      "birthTime": "2019-03-20T00:52:04.677Z",
+      "root": "/",
+      "dir": "/home/jim/Documents/BlogSite_2.0/src/content/img",
+      "base": "reacto.jpg",
+      "ext": ".jpg",
+      "name": "reacto",
+      "relativeDirectory": "img",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4070966,
+      "blocks": 1632,
+      "atimeMs": 1553043124680.8562,
+      "mtimeMs": 1553043124676.8564,
+      "ctimeMs": 1553043124676.8564,
+      "birthtimeMs": 1553043124676.8564,
+      "atime": "2019-03-20T00:52:04.681Z",
+      "mtime": "2019-03-20T00:52:04.677Z",
+      "ctime": "2019-03-20T00:52:04.677Z",
+      "birthtime": "2019-03-20T00:52:04.677Z"
     },
-    "SitePage /tags/speeches/": {
-      "jsonName": "tags-speeches-ea3",
-      "internalComponentName": "ComponentTagsSpeeches",
-      "path": "/tags/speeches/",
-      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
-      "componentChunkName": "component---src-templates-tags-tsx",
-      "context": {
-        "tag": "Speeches"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
-      "id": "SitePage /tags/speeches/",
-      "parent": null,
+    "f2fedb43-6d66-5a02-9856-67aa91e27120": {
+      "id": "f2fedb43-6d66-5a02-9856-67aa91e27120",
       "children": [],
+      "parent": "65f7522c-4288-5c55-ac33-4790b121e938",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "aa886f0ddf034229d8dd8be789175972",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tags/tests/": {
-      "jsonName": "tags-tests-c5f",
-      "internalComponentName": "ComponentTagsTests",
-      "path": "/tags/tests/",
-      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
-      "componentChunkName": "component---src-templates-tags-tsx",
-      "context": {
-        "tag": "Tests"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
-      "id": "SitePage /tags/tests/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "eb274ae1bae4cb45a82c176c58659ee9",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /author/james-de-lay/": {
-      "jsonName": "author-james-de-lay-1a6",
-      "internalComponentName": "ComponentAuthorJamesDeLay",
-      "path": "/author/james-de-lay/",
-      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx",
-      "componentChunkName": "component---src-templates-author-tsx",
-      "context": {
-        "author": "James DeLay"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx",
-      "id": "SitePage /author/james-de-lay/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "3a4098868831f6d299b46a6353914708",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /author/sarah-zhao/": {
-      "jsonName": "author-sarah-zhao-81d",
-      "internalComponentName": "ComponentAuthorSarahZhao",
-      "path": "/author/sarah-zhao/",
-      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx",
-      "componentChunkName": "component---src-templates-author-tsx",
-      "context": {
-        "author": "Sarah Zhao"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx",
-      "id": "SitePage /author/sarah-zhao/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c21e3d6354ac026686b12999bae901b6",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
+        "contentDigest": "b1ad6efb83aab4c297a31df66ba1fa01",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "SitePage /404/": {
@@ -4173,35 +3740,31 @@
         "owner": "internal-data-bridge"
       }
     },
-    "James DeLay": {
-      "id": "James DeLay",
-      "avatar": "avatars/ghost.png",
-      "bio": "Junior Application Developer at Oppenheimer & Co. Inc.",
-      "twitter": "TryGhost",
-      "website": "https://github.com/JDeLay-JR",
-      "location": "New York, New York",
+    "fee461f8-7dc3-5f90-96a1-2487d440cab8": {
+      "id": "fee461f8-7dc3-5f90-96a1-2487d440cab8",
       "children": [],
-      "parent": "44c6fd36-734c-598d-aaeb-2021e41c1eea",
+      "parent": "2cb37aec-d858-5e09-aa95-b3fe065c3694",
       "internal": {
-        "contentDigest": "a6ea042224e637e852de53f1b24f0f0c",
-        "type": "AuthorYaml",
-        "owner": "gatsby-transformer-yaml"
-      }
-    },
-    "Sarah Zhao": {
-      "id": "Sarah Zhao",
-      "avatar": "avatars/ghost.png",
-      "bio": "This is another test author with a profile background image",
-      "twitter": "TryGhost",
-      "website": "https://ghost.org/",
-      "location": "New York, New York",
-      "profile_image": "img/alex-knight-326705-unsplash.jpg",
-      "children": [],
-      "parent": "44c6fd36-734c-598d-aaeb-2021e41c1eea",
-      "internal": {
-        "contentDigest": "dcde4604fe1b09ce310783f12e22bf51",
-        "type": "AuthorYaml",
-        "owner": "gatsby-transformer-yaml"
+        "content": "",
+        "type": "MarkdownRemark",
+        "contentDigest": "a31517a4164a254cf05bf64359c4aad0",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "layout": "default-site-plugin",
+          "primaryTag": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "",
+      "fileAbsolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/k-messed-array.md",
+      "fields": {
+        "slug": "/k-messed-array/",
+        "layout": "",
+        "primaryTag": ""
       }
     }
   },
@@ -4254,18 +3817,6 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx": {
-      "query": "",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx"
-    },
-    "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx": {
-      "query": "",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx"
-    },
-    "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx": {
-      "query": "",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/author.tsx"
-    },
     "/home/jim/Documents/BlogSite_2.0/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/home/jim/Documents/BlogSite_2.0/.cache/dev-404-page.js"
