@@ -36,13 +36,23 @@
     },
     {
         "componentChunkName": "component---src-templates-post-tsx",
-        "jsonName": "img-whats-this-react-thing-4c3",
-        "path": "/img/whats-this-react-thing/"
+        "jsonName": "k-messed-array-908",
+        "path": "/k-messed-array/"
     },
     {
         "componentChunkName": "component---src-templates-post-tsx",
-        "jsonName": "k-messed-array-908",
-        "path": "/k-messed-array/"
+        "jsonName": "reacto-handshake-457",
+        "path": "/reacto-handshake/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-tsx",
+        "jsonName": "reacto-k-messed-array-7c2",
+        "path": "/reacto-k-messed-array/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-tsx",
+        "jsonName": "recursion-e76",
+        "path": "/recursion/"
     },
     {
         "componentChunkName": "component---src-templates-tags-tsx",
@@ -51,12 +61,32 @@
     },
     {
         "componentChunkName": "component---src-templates-tags-tsx",
+        "jsonName": "tags-dev-tools-60f",
+        "path": "/tags/dev-tools/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-tsx",
         "jsonName": "tags-front-end-013",
         "path": "/tags/front-end/"
     },
     {
         "componentChunkName": "component---src-templates-tags-tsx",
+        "jsonName": "tags-java-script-f48",
+        "path": "/tags/java-script/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-tsx",
         "jsonName": "tags-reacto-233",
         "path": "/tags/reacto/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-tsx",
+        "jsonName": "terminal-aliases-f95",
+        "path": "/terminal-aliases/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-tsx",
+        "jsonName": "whats-this-react-thing-e1f",
+        "path": "/whats-this-react-thing/"
     }
 ]

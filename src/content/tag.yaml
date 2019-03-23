@@ -4,3 +4,9 @@
 - id: Front End
   description: All things Front End
   image: img/blog-cover.jpg
+- id: Dev Tools
+  description: All the things that make our lives easy
+  image: img/blog-cover.jpg
+- id: JavaScript
+  description: Anything & everything JavaScript
+  image: img/blog-cover.jpg
