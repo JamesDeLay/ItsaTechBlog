@@ -136,9 +136,6 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
         <meta property="og:type" content="profile" />
         <meta property="og:title" content={`${author.id} - ${config.title}`} />
         <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
-        <meta property="article:publisher" content="https://www.facebook.com/ghost" />
-        <meta property="article:author" content="https://www.facebook.com/ghost" />
-        
         {config.twitter && (
           <meta
             name="twitter:site"
