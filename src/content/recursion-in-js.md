@@ -12,7 +12,7 @@ draft: false
 
 Recursive functions seem very mysterious for new developers. I struggled for quite a bit before I began to understand how they worked and even longer before I was able to feel comfortable creating them. Recursive functions, in their simplest form, are functions that calls themselves. Contrary to popular belief, there is no magic occurring but it's often very difficult to understand what is going on 'under the hood'. Recursion is a looping mechanism for repeating a task over and over again until a specific case is hit. Recursion is great for those instances when you don't know how long or deep an object, array, tree, or other data structure is. When a function calls itself recursively try to imagine this GIF:
 
-<div style='text-align:center;'><img src='https://lh6.googleusercontent.com/-BOYdZI6tT7Y/UJwzRKYdQNI/AAAAAAAC5js/Ltg-gd6SCQQ/photo.jpg'/></div>
+![recursion-gif](https://lh6.googleusercontent.com/-BOYdZI6tT7Y/UJwzRKYdQNI/AAAAAAAC5js/Ltg-gd6SCQQ/photo.jpg)
 
 We see the elevator doors opening to reveal smaller elevator doors and smaller elevator doors until finally one door opens that the gentleman can enter. Once he is inside the doors begin to close one by one until the elevator looks normal again. This is one of my favorite ways to imagine recursion. I will be continually referencing this GIF as we go through the rest of the article to try and aid my explanation into how recursion is working.
 
@@ -52,7 +52,7 @@ This is a simple countdown function that takes a number and will recursively cou
 
 Here is a nice way to imagine recursion happening:
 
-<div style='text-align:center;'><img src='https://i.imgur.com/iUXlI48.png'/></div>
+![diagram](https://i.imgur.com/iUXlI48.png)
 
 We see that once we hit the recursive case we open a new recursive call. In this new call we begin at the top of the function again with `num - 1` as the new argument. If we had no base case this process would repeat over and over and over again in an infinite loop (which will be discussed below in a little more detail).
 
@@ -60,7 +60,7 @@ We see that once we hit the recursive case we open a new recursive call. In this
 
 One of the most confusing aspects of recursion I ran into is trying to understand what is going on behind the scenes while the recursive function is running. This involves the call stack.
 
-<div style='text-align:center;'><img src='https://i.imgur.com/cRjhcCv.png'/></div>
+![diagram](https://i.imgur.com/cRjhcCv.png)
 
 As we can see in the above diagram we start with `countdown(5)` so we skip the `if` statement base case and head right to the recursive call. We then `console.log(5)` and `return countdown(5 - 1)`. A very interesting thing occurs at this point. Our original function call `countdown(5)` pauses because it is awaiting the return of `countdown(5 - 1)`. It cannot finish evaluating until it receives this value. What happens is a new function call, `countdown(4)`, is created and placed on top of `countdown(5)`. This process occurs each time we recursively call our function until we hit the base case of `countdown(1)`.
 

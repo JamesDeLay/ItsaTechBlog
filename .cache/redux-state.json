@@ -2500,12 +2500,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-23T19:44:11.413Z",
+      "buildTime": "2019-03-23T19:51:29.357Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "2e96b4ea56de4139110c050c968c6e48",
+        "contentDigest": "191b3a25d903942b8827c8447ed62133",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2836,7 +2836,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "ea234173991918f6efa3ae1a1a036f48",
+        "contentDigest": "10f88ff617c0b903015e15bd9a49a5ea",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/content/recursion-in-js.md\"",
@@ -2846,12 +2846,12 @@
       "absolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/recursion-in-js.md",
       "relativePath": "recursion-in-js.md",
       "extension": "md",
-      "size": 8876,
-      "prettySize": "8.88 kB",
-      "modifiedTime": "2019-03-23T19:41:55.915Z",
+      "size": 8765,
+      "prettySize": "8.77 kB",
+      "modifiedTime": "2019-03-23T19:51:25.304Z",
       "accessTime": "2019-03-23T19:41:59.259Z",
-      "changeTime": "2019-03-23T19:41:55.915Z",
-      "birthTime": "2019-03-23T19:41:55.915Z",
+      "changeTime": "2019-03-23T19:51:25.304Z",
+      "birthTime": "2019-03-23T19:51:25.304Z",
       "root": "/",
       "dir": "/home/jim/Documents/BlogSite_2.0/src/content",
       "base": "recursion-in-js.md",
@@ -2868,13 +2868,13 @@
       "ino": 5383564,
       "blocks": 24,
       "atimeMs": 1553370119259.3179,
-      "mtimeMs": 1553370115915.36,
-      "ctimeMs": 1553370115915.36,
-      "birthtimeMs": 1553370115915.36,
+      "mtimeMs": 1553370685304.0435,
+      "ctimeMs": 1553370685304.0435,
+      "birthtimeMs": 1553370685304.0435,
       "atime": "2019-03-23T19:41:59.259Z",
-      "mtime": "2019-03-23T19:41:55.915Z",
-      "ctime": "2019-03-23T19:41:55.915Z",
-      "birthtime": "2019-03-23T19:41:55.915Z"
+      "mtime": "2019-03-23T19:51:25.304Z",
+      "ctime": "2019-03-23T19:51:25.304Z",
+      "birthtime": "2019-03-23T19:51:25.304Z"
     },
     "15b357a4-8ce9-5333-96b6-53fc70865a4a": {
       "id": "15b357a4-8ce9-5333-96b6-53fc70865a4a",
@@ -3824,41 +3824,6 @@
       "ctime": "2019-03-23T05:50:34.562Z",
       "birthtime": "2019-03-23T05:50:34.562Z"
     },
-    "8d1a5eb6-31a7-5c29-92cb-0b56ad0ac619": {
-      "id": "8d1a5eb6-31a7-5c29-92cb-0b56ad0ac619",
-      "children": [],
-      "parent": "f11a52ac-05ee-5c89-9793-71eeddcc2272",
-      "internal": {
-        "content": "\n## Introduction\n\nRecursive functions seem very mysterious for new developers. I struggled for quite a bit before I began to understand how they worked and even longer before I was able to feel comfortable creating them. Recursive functions, in their simplest form, are functions that calls themselves. Contrary to popular belief, there is no magic occurring but it's often very difficult to understand what is going on 'under the hood'. Recursion is a looping mechanism for repeating a task over and over again until a specific case is hit. Recursion is great for those instances when you don't know how long or deep an object, array, tree, or other data structure is. When a function calls itself recursively try to imagine this GIF:\n\n<div style='text-align:center;'><img src='https://lh6.googleusercontent.com/-BOYdZI6tT7Y/UJwzRKYdQNI/AAAAAAAC5js/Ltg-gd6SCQQ/photo.jpg'/></div>\n\nWe see the elevator doors opening to reveal smaller elevator doors and smaller elevator doors until finally one door opens that the gentleman can enter. Once he is inside the doors begin to close one by one until the elevator looks normal again. This is one of my favorite ways to imagine recursion. I will be continually referencing this GIF as we go through the rest of the article to try and aid my explanation into how recursion is working.\n\n## Key Components of a Recursive Function\n\n### Recursive Case\n\nThis is the case that we want to continually run until we hit our base case/escape case. Imagine all the elevator doors opening in the GIF. When one door opens a slightly smaller one keeps appearing. Think of this process as getting closer to our base case. We begin far away from the base case but as our recursion runs we get slightly closer each time until finally we hit the base case.\n\n### Base Case/Escape Case\n\nThis is the point at which we want our recursion to terminate. I like to think of the base case as the if statement in an if/else block. If a specific condition (the breaking point) is met we want to terminate our function; we want to break/escape out. This occurs when that last door in the GIF opens and the guy can crawl in. If we don't include a base case our function will run recursively forever, an infinite amount of doors will continue opening, and we will get an error.\n\nThere are times when a recursive function can have two base cases so try not to think of recursive functions as having just one base case. The base case is just the point at which we want to get out of the recursive loop.\n\n## Example of Recursion\n\nLet's check out some code.\n\n```js\nfunction countdownToOne(num) {\n  //Base Case\n  if (num === 1) {\n    console.log(num)\n    return\n  } else {\n  //Recursive Case\n    console.log(num)\n    return countdownToOne(num - 1)\n  }\n}\n```\n\nCool stuff!\n\nThis is a simple countdown function that takes a number and will recursively countdown & print all numbers from `num` to 1. So if we give this function `5` we will get `5 4 3 2 1` as our output. Our base case in this scenario is `1`. If `num` is `1` we want to simply `console.log(num)` and escape out of the function. Our recursive case occurs every time `num` **is not** `1`. Inside our recursive case we first want to `console.log` the number being passed into the function. Then we want to recursively call our countdown function again on `num - 1`. This will cause our function to run again and again and again slowly decrementing toward our base case. We know we will hit the base case eventually because after a while `num - 1` will eventually evaluate to `1`.\n\nHere is a nice way to imagine recursion happening:\n\n<div style='text-align:center;'><img src='https://i.imgur.com/iUXlI48.png'/></div>\n\nWe see that once we hit the recursive case we open a new recursive call. In this new call we begin at the top of the function again with `num - 1` as the new argument. If we had no base case this process would repeat over and over and over again in an infinite loop (which will be discussed below in a little more detail).\n\n## Call Stack\n\nOne of the most confusing aspects of recursion I ran into is trying to understand what is going on behind the scenes while the recursive function is running. This involves the call stack.\n\n<div style='text-align:center;'><img src='https://i.imgur.com/cRjhcCv.png'/></div>\n\nAs we can see in the above diagram we start with `countdown(5)` so we skip the `if` statement base case and head right to the recursive call. We then `console.log(5)` and `return countdown(5 - 1)`. A very interesting thing occurs at this point. Our original function call `countdown(5)` pauses because it is awaiting the return of `countdown(5 - 1)`. It cannot finish evaluating until it receives this value. What happens is a new function call, `countdown(4)`, is created and placed on top of `countdown(5)`. This process occurs each time we recursively call our function until we hit the base case of `countdown(1)`.\n\nOnce our base case is recursively called and placed on top of the call stack we stop adding to the stack. The functions on the stack can now finish evaluating and then be popped off. Since a stack is LIFO (last in, first out) first we begin by returning the value of `countdown(1)` and then `countdown(2)` and then `countdown(3)` and so on until we clear our call stack.\n\nThis leads to another interesting point. If we are clearing the call stack in this manner (starting with 1 and ending with 5) shouldn't we get 1,2,3,4,5 as our output?\n\nWe actually don't get this output and this has to do with the pausing of our functions we talked about earlier. Remember when we said a function does not finish evaluating because a new function call is placed on top of it in the call stack? This process also impacts the output result. When `countdown(1)` is finished processing it is popped off of the stack but the value isn't immediately logged because it is needed to evaluate the past function calls. This seems weird using the above example but let's imagine the following scenario.\n\nBelow is a function that will recursively calculate the power of a number and an exponent it is passed.\n\n```js\nfunction calcPower(baseNumber, exponent) {\n  if (exponent == 0)\n    return 1;\n  else\n    return baseNumber * calcPower(baseNumber, exponent - 1);\n}\n```\n\nAssume we call the `calcPower(5, 3)`, the call stack would look like this:\n\n```js\n5 * (5 * (5 * 1))\n```\n\nAnother way to think of it:\n\n```js\ncalcPower(5,3)        calcPower(5,2);           calcPower(5,1);\n      5         *         (5             *        (5 * 1))\n```\n\nThe left most side of the above line of code is the bottom of the call stack and the right most side is the top. So, the first call to be processed and popped off of the stack would be `5 * 1` but this value is needed to calculate the value of the previous paused recursive call and so on and so forth. Eventually we will get:\n\n```js\n5 * (5 * (5 * 1))\n5 * (5 * 5)\n5 * 25\n125\n```\n\nI hope this article helped you out! If you have any questions feel free to email us or tweet us! I have also compiled a list of [recursive problems](https://repl.it/@JimboDeLay/Recursion-Motherload) you can try your hand at and have [included the solutions here](https://repl.it/@JimboDeLay/Recursion-Motherload-Solutions). Good luck and keep practicing!\n\n## Common Pitfalls of Recursion\n\n- Not returning the recursive function call\n  - If the recursive call is not `return`ed it won't execute\n- Over thinking what is going on\n  - I know this sounds crazy but the more you try to imagine what is going on at each step in the recursive call the more you will drive yourself crazy. Just try to come up with a base case and then figure out the next simplest answer for what would happen in the recursive case. Given the countdown function use 1 as the base case and 2 as the initial argument passed into the function. If it works for these two cases it most likely will continue to work for more advanced cases.\n- Not practicing\n  - Recursion is tough! Keep practicing recursive problems. A lot (maybe all) problems that use an iterative approach can be solved with recursion so go on [CodeWars](www.codewars.com) and get practicing! I've also compiled a bunch of recursive function you can [write and test here](https://repl.it/@JimboDeLay/Recursion-Motherload) and then check out the [solutions here](https://repl.it/@JimboDeLay/Recursion-Motherload-Solutions)\n- `Maximum call stack size exceeded`\n  - This is commonly seen when there is an error with our base case. We get this error because we keep stacking unfinished function calls on top of each other creating a never ending and ever growing call stack with no end in sight. We need the base case to prevent this. (See the call stack diagram above)",
-        "type": "MarkdownRemark",
-        "contentDigest": "21fea6b22e138c70bee81f68e04c16de",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin",
-          "layout": "default-site-plugin",
-          "primaryTag": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Recursion in JavaScript",
-        "cover": "img/recursion.jpg",
-        "author": "James DeLay",
-        "tags": [
-          "JavaScript"
-        ],
-        "image": "img/recursion.jpg",
-        "date": "2018-12-05",
-        "draft": false
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n## Introduction\n\nRecursive functions seem very mysterious for new developers. I struggled for quite a bit before I began to understand how they worked and even longer before I was able to feel comfortable creating them. Recursive functions, in their simplest form, are functions that calls themselves. Contrary to popular belief, there is no magic occurring but it's often very difficult to understand what is going on 'under the hood'. Recursion is a looping mechanism for repeating a task over and over again until a specific case is hit. Recursion is great for those instances when you don't know how long or deep an object, array, tree, or other data structure is. When a function calls itself recursively try to imagine this GIF:\n\n<div style='text-align:center;'><img src='https://lh6.googleusercontent.com/-BOYdZI6tT7Y/UJwzRKYdQNI/AAAAAAAC5js/Ltg-gd6SCQQ/photo.jpg'/></div>\n\nWe see the elevator doors opening to reveal smaller elevator doors and smaller elevator doors until finally one door opens that the gentleman can enter. Once he is inside the doors begin to close one by one until the elevator looks normal again. This is one of my favorite ways to imagine recursion. I will be continually referencing this GIF as we go through the rest of the article to try and aid my explanation into how recursion is working.\n\n## Key Components of a Recursive Function\n\n### Recursive Case\n\nThis is the case that we want to continually run until we hit our base case/escape case. Imagine all the elevator doors opening in the GIF. When one door opens a slightly smaller one keeps appearing. Think of this process as getting closer to our base case. We begin far away from the base case but as our recursion runs we get slightly closer each time until finally we hit the base case.\n\n### Base Case/Escape Case\n\nThis is the point at which we want our recursion to terminate. I like to think of the base case as the if statement in an if/else block. If a specific condition (the breaking point) is met we want to terminate our function; we want to break/escape out. This occurs when that last door in the GIF opens and the guy can crawl in. If we don't include a base case our function will run recursively forever, an infinite amount of doors will continue opening, and we will get an error.\n\nThere are times when a recursive function can have two base cases so try not to think of recursive functions as having just one base case. The base case is just the point at which we want to get out of the recursive loop.\n\n## Example of Recursion\n\nLet's check out some code.\n\n```js\nfunction countdownToOne(num) {\n  //Base Case\n  if (num === 1) {\n    console.log(num)\n    return\n  } else {\n  //Recursive Case\n    console.log(num)\n    return countdownToOne(num - 1)\n  }\n}\n```\n\nCool stuff!\n\nThis is a simple countdown function that takes a number and will recursively countdown & print all numbers from `num` to 1. So if we give this function `5` we will get `5 4 3 2 1` as our output. Our base case in this scenario is `1`. If `num` is `1` we want to simply `console.log(num)` and escape out of the function. Our recursive case occurs every time `num` **is not** `1`. Inside our recursive case we first want to `console.log` the number being passed into the function. Then we want to recursively call our countdown function again on `num - 1`. This will cause our function to run again and again and again slowly decrementing toward our base case. We know we will hit the base case eventually because after a while `num - 1` will eventually evaluate to `1`.\n\nHere is a nice way to imagine recursion happening:\n\n<div style='text-align:center;'><img src='https://i.imgur.com/iUXlI48.png'/></div>\n\nWe see that once we hit the recursive case we open a new recursive call. In this new call we begin at the top of the function again with `num - 1` as the new argument. If we had no base case this process would repeat over and over and over again in an infinite loop (which will be discussed below in a little more detail).\n\n## Call Stack\n\nOne of the most confusing aspects of recursion I ran into is trying to understand what is going on behind the scenes while the recursive function is running. This involves the call stack.\n\n<div style='text-align:center;'><img src='https://i.imgur.com/cRjhcCv.png'/></div>\n\nAs we can see in the above diagram we start with `countdown(5)` so we skip the `if` statement base case and head right to the recursive call. We then `console.log(5)` and `return countdown(5 - 1)`. A very interesting thing occurs at this point. Our original function call `countdown(5)` pauses because it is awaiting the return of `countdown(5 - 1)`. It cannot finish evaluating until it receives this value. What happens is a new function call, `countdown(4)`, is created and placed on top of `countdown(5)`. This process occurs each time we recursively call our function until we hit the base case of `countdown(1)`.\n\nOnce our base case is recursively called and placed on top of the call stack we stop adding to the stack. The functions on the stack can now finish evaluating and then be popped off. Since a stack is LIFO (last in, first out) first we begin by returning the value of `countdown(1)` and then `countdown(2)` and then `countdown(3)` and so on until we clear our call stack.\n\nThis leads to another interesting point. If we are clearing the call stack in this manner (starting with 1 and ending with 5) shouldn't we get 1,2,3,4,5 as our output?\n\nWe actually don't get this output and this has to do with the pausing of our functions we talked about earlier. Remember when we said a function does not finish evaluating because a new function call is placed on top of it in the call stack? This process also impacts the output result. When `countdown(1)` is finished processing it is popped off of the stack but the value isn't immediately logged because it is needed to evaluate the past function calls. This seems weird using the above example but let's imagine the following scenario.\n\nBelow is a function that will recursively calculate the power of a number and an exponent it is passed.\n\n```js\nfunction calcPower(baseNumber, exponent) {\n  if (exponent == 0)\n    return 1;\n  else\n    return baseNumber * calcPower(baseNumber, exponent - 1);\n}\n```\n\nAssume we call the `calcPower(5, 3)`, the call stack would look like this:\n\n```js\n5 * (5 * (5 * 1))\n```\n\nAnother way to think of it:\n\n```js\ncalcPower(5,3)        calcPower(5,2);           calcPower(5,1);\n      5         *         (5             *        (5 * 1))\n```\n\nThe left most side of the above line of code is the bottom of the call stack and the right most side is the top. So, the first call to be processed and popped off of the stack would be `5 * 1` but this value is needed to calculate the value of the previous paused recursive call and so on and so forth. Eventually we will get:\n\n```js\n5 * (5 * (5 * 1))\n5 * (5 * 5)\n5 * 25\n125\n```\n\nI hope this article helped you out! If you have any questions feel free to email us or tweet us! I have also compiled a list of [recursive problems](https://repl.it/@JimboDeLay/Recursion-Motherload) you can try your hand at and have [included the solutions here](https://repl.it/@JimboDeLay/Recursion-Motherload-Solutions). Good luck and keep practicing!\n\n## Common Pitfalls of Recursion\n\n- Not returning the recursive function call\n  - If the recursive call is not `return`ed it won't execute\n- Over thinking what is going on\n  - I know this sounds crazy but the more you try to imagine what is going on at each step in the recursive call the more you will drive yourself crazy. Just try to come up with a base case and then figure out the next simplest answer for what would happen in the recursive case. Given the countdown function use 1 as the base case and 2 as the initial argument passed into the function. If it works for these two cases it most likely will continue to work for more advanced cases.\n- Not practicing\n  - Recursion is tough! Keep practicing recursive problems. A lot (maybe all) problems that use an iterative approach can be solved with recursion so go on [CodeWars](www.codewars.com) and get practicing! I've also compiled a bunch of recursive function you can [write and test here](https://repl.it/@JimboDeLay/Recursion-Motherload) and then check out the [solutions here](https://repl.it/@JimboDeLay/Recursion-Motherload-Solutions)\n- `Maximum call stack size exceeded`\n  - This is commonly seen when there is an error with our base case. We get this error because we keep stacking unfinished function calls on top of each other creating a never ending and ever growing call stack with no end in sight. We need the base case to prevent this. (See the call stack diagram above)",
-      "fileAbsolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/recursion-in-js.md",
-      "fields": {
-        "slug": "/recursion-in-js/",
-        "layout": "",
-        "primaryTag": ""
-      }
-    },
     "f1e7335d-12da-5790-96ee-7adfb19e03b7": {
       "id": "f1e7335d-12da-5790-96ee-7adfb19e03b7",
       "children": [],
@@ -4189,6 +4154,41 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "8d1a5eb6-31a7-5c29-92cb-0b56ad0ac619": {
+      "id": "8d1a5eb6-31a7-5c29-92cb-0b56ad0ac619",
+      "children": [],
+      "parent": "f11a52ac-05ee-5c89-9793-71eeddcc2272",
+      "internal": {
+        "content": "\n## Introduction\n\nRecursive functions seem very mysterious for new developers. I struggled for quite a bit before I began to understand how they worked and even longer before I was able to feel comfortable creating them. Recursive functions, in their simplest form, are functions that calls themselves. Contrary to popular belief, there is no magic occurring but it's often very difficult to understand what is going on 'under the hood'. Recursion is a looping mechanism for repeating a task over and over again until a specific case is hit. Recursion is great for those instances when you don't know how long or deep an object, array, tree, or other data structure is. When a function calls itself recursively try to imagine this GIF:\n\n![recursion-gif](https://lh6.googleusercontent.com/-BOYdZI6tT7Y/UJwzRKYdQNI/AAAAAAAC5js/Ltg-gd6SCQQ/photo.jpg)\n\nWe see the elevator doors opening to reveal smaller elevator doors and smaller elevator doors until finally one door opens that the gentleman can enter. Once he is inside the doors begin to close one by one until the elevator looks normal again. This is one of my favorite ways to imagine recursion. I will be continually referencing this GIF as we go through the rest of the article to try and aid my explanation into how recursion is working.\n\n## Key Components of a Recursive Function\n\n### Recursive Case\n\nThis is the case that we want to continually run until we hit our base case/escape case. Imagine all the elevator doors opening in the GIF. When one door opens a slightly smaller one keeps appearing. Think of this process as getting closer to our base case. We begin far away from the base case but as our recursion runs we get slightly closer each time until finally we hit the base case.\n\n### Base Case/Escape Case\n\nThis is the point at which we want our recursion to terminate. I like to think of the base case as the if statement in an if/else block. If a specific condition (the breaking point) is met we want to terminate our function; we want to break/escape out. This occurs when that last door in the GIF opens and the guy can crawl in. If we don't include a base case our function will run recursively forever, an infinite amount of doors will continue opening, and we will get an error.\n\nThere are times when a recursive function can have two base cases so try not to think of recursive functions as having just one base case. The base case is just the point at which we want to get out of the recursive loop.\n\n## Example of Recursion\n\nLet's check out some code.\n\n```js\nfunction countdownToOne(num) {\n  //Base Case\n  if (num === 1) {\n    console.log(num)\n    return\n  } else {\n  //Recursive Case\n    console.log(num)\n    return countdownToOne(num - 1)\n  }\n}\n```\n\nCool stuff!\n\nThis is a simple countdown function that takes a number and will recursively countdown & print all numbers from `num` to 1. So if we give this function `5` we will get `5 4 3 2 1` as our output. Our base case in this scenario is `1`. If `num` is `1` we want to simply `console.log(num)` and escape out of the function. Our recursive case occurs every time `num` **is not** `1`. Inside our recursive case we first want to `console.log` the number being passed into the function. Then we want to recursively call our countdown function again on `num - 1`. This will cause our function to run again and again and again slowly decrementing toward our base case. We know we will hit the base case eventually because after a while `num - 1` will eventually evaluate to `1`.\n\nHere is a nice way to imagine recursion happening:\n\n![diagram](https://i.imgur.com/iUXlI48.png)\n\nWe see that once we hit the recursive case we open a new recursive call. In this new call we begin at the top of the function again with `num - 1` as the new argument. If we had no base case this process would repeat over and over and over again in an infinite loop (which will be discussed below in a little more detail).\n\n## Call Stack\n\nOne of the most confusing aspects of recursion I ran into is trying to understand what is going on behind the scenes while the recursive function is running. This involves the call stack.\n\n![diagram](https://i.imgur.com/cRjhcCv.png)\n\nAs we can see in the above diagram we start with `countdown(5)` so we skip the `if` statement base case and head right to the recursive call. We then `console.log(5)` and `return countdown(5 - 1)`. A very interesting thing occurs at this point. Our original function call `countdown(5)` pauses because it is awaiting the return of `countdown(5 - 1)`. It cannot finish evaluating until it receives this value. What happens is a new function call, `countdown(4)`, is created and placed on top of `countdown(5)`. This process occurs each time we recursively call our function until we hit the base case of `countdown(1)`.\n\nOnce our base case is recursively called and placed on top of the call stack we stop adding to the stack. The functions on the stack can now finish evaluating and then be popped off. Since a stack is LIFO (last in, first out) first we begin by returning the value of `countdown(1)` and then `countdown(2)` and then `countdown(3)` and so on until we clear our call stack.\n\nThis leads to another interesting point. If we are clearing the call stack in this manner (starting with 1 and ending with 5) shouldn't we get 1,2,3,4,5 as our output?\n\nWe actually don't get this output and this has to do with the pausing of our functions we talked about earlier. Remember when we said a function does not finish evaluating because a new function call is placed on top of it in the call stack? This process also impacts the output result. When `countdown(1)` is finished processing it is popped off of the stack but the value isn't immediately logged because it is needed to evaluate the past function calls. This seems weird using the above example but let's imagine the following scenario.\n\nBelow is a function that will recursively calculate the power of a number and an exponent it is passed.\n\n```js\nfunction calcPower(baseNumber, exponent) {\n  if (exponent == 0)\n    return 1;\n  else\n    return baseNumber * calcPower(baseNumber, exponent - 1);\n}\n```\n\nAssume we call the `calcPower(5, 3)`, the call stack would look like this:\n\n```js\n5 * (5 * (5 * 1))\n```\n\nAnother way to think of it:\n\n```js\ncalcPower(5,3)        calcPower(5,2);           calcPower(5,1);\n      5         *         (5             *        (5 * 1))\n```\n\nThe left most side of the above line of code is the bottom of the call stack and the right most side is the top. So, the first call to be processed and popped off of the stack would be `5 * 1` but this value is needed to calculate the value of the previous paused recursive call and so on and so forth. Eventually we will get:\n\n```js\n5 * (5 * (5 * 1))\n5 * (5 * 5)\n5 * 25\n125\n```\n\nI hope this article helped you out! If you have any questions feel free to email us or tweet us! I have also compiled a list of [recursive problems](https://repl.it/@JimboDeLay/Recursion-Motherload) you can try your hand at and have [included the solutions here](https://repl.it/@JimboDeLay/Recursion-Motherload-Solutions). Good luck and keep practicing!\n\n## Common Pitfalls of Recursion\n\n- Not returning the recursive function call\n  - If the recursive call is not `return`ed it won't execute\n- Over thinking what is going on\n  - I know this sounds crazy but the more you try to imagine what is going on at each step in the recursive call the more you will drive yourself crazy. Just try to come up with a base case and then figure out the next simplest answer for what would happen in the recursive case. Given the countdown function use 1 as the base case and 2 as the initial argument passed into the function. If it works for these two cases it most likely will continue to work for more advanced cases.\n- Not practicing\n  - Recursion is tough! Keep practicing recursive problems. A lot (maybe all) problems that use an iterative approach can be solved with recursion so go on [CodeWars](www.codewars.com) and get practicing! I've also compiled a bunch of recursive function you can [write and test here](https://repl.it/@JimboDeLay/Recursion-Motherload) and then check out the [solutions here](https://repl.it/@JimboDeLay/Recursion-Motherload-Solutions)\n- `Maximum call stack size exceeded`\n  - This is commonly seen when there is an error with our base case. We get this error because we keep stacking unfinished function calls on top of each other creating a never ending and ever growing call stack with no end in sight. We need the base case to prevent this. (See the call stack diagram above)",
+        "type": "MarkdownRemark",
+        "contentDigest": "652f655dee8f6eec25a7e24e016a7ee0",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "layout": "default-site-plugin",
+          "primaryTag": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Recursion in JavaScript",
+        "cover": "img/recursion.jpg",
+        "author": "James DeLay",
+        "tags": [
+          "JavaScript"
+        ],
+        "image": "img/recursion.jpg",
+        "date": "2018-12-05",
+        "draft": false
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## Introduction\n\nRecursive functions seem very mysterious for new developers. I struggled for quite a bit before I began to understand how they worked and even longer before I was able to feel comfortable creating them. Recursive functions, in their simplest form, are functions that calls themselves. Contrary to popular belief, there is no magic occurring but it's often very difficult to understand what is going on 'under the hood'. Recursion is a looping mechanism for repeating a task over and over again until a specific case is hit. Recursion is great for those instances when you don't know how long or deep an object, array, tree, or other data structure is. When a function calls itself recursively try to imagine this GIF:\n\n![recursion-gif](https://lh6.googleusercontent.com/-BOYdZI6tT7Y/UJwzRKYdQNI/AAAAAAAC5js/Ltg-gd6SCQQ/photo.jpg)\n\nWe see the elevator doors opening to reveal smaller elevator doors and smaller elevator doors until finally one door opens that the gentleman can enter. Once he is inside the doors begin to close one by one until the elevator looks normal again. This is one of my favorite ways to imagine recursion. I will be continually referencing this GIF as we go through the rest of the article to try and aid my explanation into how recursion is working.\n\n## Key Components of a Recursive Function\n\n### Recursive Case\n\nThis is the case that we want to continually run until we hit our base case/escape case. Imagine all the elevator doors opening in the GIF. When one door opens a slightly smaller one keeps appearing. Think of this process as getting closer to our base case. We begin far away from the base case but as our recursion runs we get slightly closer each time until finally we hit the base case.\n\n### Base Case/Escape Case\n\nThis is the point at which we want our recursion to terminate. I like to think of the base case as the if statement in an if/else block. If a specific condition (the breaking point) is met we want to terminate our function; we want to break/escape out. This occurs when that last door in the GIF opens and the guy can crawl in. If we don't include a base case our function will run recursively forever, an infinite amount of doors will continue opening, and we will get an error.\n\nThere are times when a recursive function can have two base cases so try not to think of recursive functions as having just one base case. The base case is just the point at which we want to get out of the recursive loop.\n\n## Example of Recursion\n\nLet's check out some code.\n\n```js\nfunction countdownToOne(num) {\n  //Base Case\n  if (num === 1) {\n    console.log(num)\n    return\n  } else {\n  //Recursive Case\n    console.log(num)\n    return countdownToOne(num - 1)\n  }\n}\n```\n\nCool stuff!\n\nThis is a simple countdown function that takes a number and will recursively countdown & print all numbers from `num` to 1. So if we give this function `5` we will get `5 4 3 2 1` as our output. Our base case in this scenario is `1`. If `num` is `1` we want to simply `console.log(num)` and escape out of the function. Our recursive case occurs every time `num` **is not** `1`. Inside our recursive case we first want to `console.log` the number being passed into the function. Then we want to recursively call our countdown function again on `num - 1`. This will cause our function to run again and again and again slowly decrementing toward our base case. We know we will hit the base case eventually because after a while `num - 1` will eventually evaluate to `1`.\n\nHere is a nice way to imagine recursion happening:\n\n![diagram](https://i.imgur.com/iUXlI48.png)\n\nWe see that once we hit the recursive case we open a new recursive call. In this new call we begin at the top of the function again with `num - 1` as the new argument. If we had no base case this process would repeat over and over and over again in an infinite loop (which will be discussed below in a little more detail).\n\n## Call Stack\n\nOne of the most confusing aspects of recursion I ran into is trying to understand what is going on behind the scenes while the recursive function is running. This involves the call stack.\n\n![diagram](https://i.imgur.com/cRjhcCv.png)\n\nAs we can see in the above diagram we start with `countdown(5)` so we skip the `if` statement base case and head right to the recursive call. We then `console.log(5)` and `return countdown(5 - 1)`. A very interesting thing occurs at this point. Our original function call `countdown(5)` pauses because it is awaiting the return of `countdown(5 - 1)`. It cannot finish evaluating until it receives this value. What happens is a new function call, `countdown(4)`, is created and placed on top of `countdown(5)`. This process occurs each time we recursively call our function until we hit the base case of `countdown(1)`.\n\nOnce our base case is recursively called and placed on top of the call stack we stop adding to the stack. The functions on the stack can now finish evaluating and then be popped off. Since a stack is LIFO (last in, first out) first we begin by returning the value of `countdown(1)` and then `countdown(2)` and then `countdown(3)` and so on until we clear our call stack.\n\nThis leads to another interesting point. If we are clearing the call stack in this manner (starting with 1 and ending with 5) shouldn't we get 1,2,3,4,5 as our output?\n\nWe actually don't get this output and this has to do with the pausing of our functions we talked about earlier. Remember when we said a function does not finish evaluating because a new function call is placed on top of it in the call stack? This process also impacts the output result. When `countdown(1)` is finished processing it is popped off of the stack but the value isn't immediately logged because it is needed to evaluate the past function calls. This seems weird using the above example but let's imagine the following scenario.\n\nBelow is a function that will recursively calculate the power of a number and an exponent it is passed.\n\n```js\nfunction calcPower(baseNumber, exponent) {\n  if (exponent == 0)\n    return 1;\n  else\n    return baseNumber * calcPower(baseNumber, exponent - 1);\n}\n```\n\nAssume we call the `calcPower(5, 3)`, the call stack would look like this:\n\n```js\n5 * (5 * (5 * 1))\n```\n\nAnother way to think of it:\n\n```js\ncalcPower(5,3)        calcPower(5,2);           calcPower(5,1);\n      5         *         (5             *        (5 * 1))\n```\n\nThe left most side of the above line of code is the bottom of the call stack and the right most side is the top. So, the first call to be processed and popped off of the stack would be `5 * 1` but this value is needed to calculate the value of the previous paused recursive call and so on and so forth. Eventually we will get:\n\n```js\n5 * (5 * (5 * 1))\n5 * (5 * 5)\n5 * 25\n125\n```\n\nI hope this article helped you out! If you have any questions feel free to email us or tweet us! I have also compiled a list of [recursive problems](https://repl.it/@JimboDeLay/Recursion-Motherload) you can try your hand at and have [included the solutions here](https://repl.it/@JimboDeLay/Recursion-Motherload-Solutions). Good luck and keep practicing!\n\n## Common Pitfalls of Recursion\n\n- Not returning the recursive function call\n  - If the recursive call is not `return`ed it won't execute\n- Over thinking what is going on\n  - I know this sounds crazy but the more you try to imagine what is going on at each step in the recursive call the more you will drive yourself crazy. Just try to come up with a base case and then figure out the next simplest answer for what would happen in the recursive case. Given the countdown function use 1 as the base case and 2 as the initial argument passed into the function. If it works for these two cases it most likely will continue to work for more advanced cases.\n- Not practicing\n  - Recursion is tough! Keep practicing recursive problems. A lot (maybe all) problems that use an iterative approach can be solved with recursion so go on [CodeWars](www.codewars.com) and get practicing! I've also compiled a bunch of recursive function you can [write and test here](https://repl.it/@JimboDeLay/Recursion-Motherload) and then check out the [solutions here](https://repl.it/@JimboDeLay/Recursion-Motherload-Solutions)\n- `Maximum call stack size exceeded`\n  - This is commonly seen when there is an error with our base case. We get this error because we keep stacking unfinished function calls on top of each other creating a never ending and ever growing call stack with no end in sight. We need the base case to prevent this. (See the call stack diagram above)",
+      "fileAbsolutePath": "/home/jim/Documents/BlogSite_2.0/src/content/recursion-in-js.md",
+      "fields": {
+        "slug": "/recursion-in-js/",
+        "layout": "",
+        "primaryTag": ""
+      }
+    },
     "SitePage /reacto-handshake/": {
       "jsonName": "reacto-handshake-457",
       "internalComponentName": "ComponentReactoHandshake",
@@ -4405,23 +4405,23 @@
           }
         },
         "next": {
-          "excerpt": "Introduction Recursive functions seem very mysterious for new developers. I struggled for quite a bit before I began to understand how they…",
-          "timeToRead": 6,
+          "excerpt": "Introduction Hello! Thanks for stopping by and taking time to read our blog; we appreciate you! This article is for total newcomers to React…",
+          "timeToRead": 11,
           "frontmatter": {
-            "title": "Recursion in JavaScript",
+            "title": "What's this *React* thing?",
             "tags": [
-              "JavaScript"
+              "Front End"
             ],
             "date": "2018-12-05",
             "draft": false,
             "image": {
               "childImageSharp": {
                 "fluid": {
-                  "aspectRatio": 2.3622047244094486,
-                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAY1IckUf/8QAGRABAAIDAAAAAAAAAAAAAAAAAgADERIh/9oACAEBAAEFAqXiLSPi/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBABAQADAAAAAAAAAAAAAAAAAQARIjH/2gAIAQEABj8C5ahJi//EABkQAQADAQEAAAAAAAAAAAAAAAEAESExUf/aAAgBAQABPyFwjg9nSkLudlMxU//aAAwDAQACAAMAAAAQDA//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QxY//xAAWEQEBAQAAAAAAAAAAAAAAAAAAMQH/2gAIAQIBAT8QrI//xAAcEAEAAgEFAAAAAAAAAAAAAAABACERMVGBkcH/2gAIAQEAAT8QE4vaNVQx1KbqgU3cQkMCQEz7P//Z",
-                  "sizes": "(max-width: 1200px) 100vw, 1200px",
-                  "src": "/static/313974761f00a6177bfd47b7eca29ede/d6c8a/recursion.jpg",
-                  "srcSet": "/static/313974761f00a6177bfd47b7eca29ede/2b9a2/recursion.jpg 930w,\n/static/313974761f00a6177bfd47b7eca29ede/d6c8a/recursion.jpg 1200w"
+                  "aspectRatio": 1.7777777777777777,
+                  "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABjklEQVQoz2PwuvofgrxhDOIRA5zlcfW/J5jEb5w3Vs1RN/6FX/8Xcf2f97X/7lf++1z773rlv8eV/55XQCYCRbzApPPl/25XkDQDhUJv/C+7+b3j7reUy1+szv5sevh/8uPfFff++Vz7F3Ljf9D1/2E3QHZG3/pfcv9/ws1/7mAngDQDLUm78bvjzrcpD7533/1mevTj5Ic/Njz/Mevh99mPf05/8rv+3u8Nr35PefKn/Ob3lS9+JV/6onfqp/91sGagq6Jv/Gu4/b3r7rfy618V972vvfk19dKXzrvf5zz60XDrK1B81bMfk+9/y7/6pebm16jzn3h2vDU79R2kGRhOftf/h17+aX/8g+WxjxJ73snvfSe2+53svneqB95rHHivvP+92oH3MnvfGR3+oLT/PVAQKCu++x1SaF/5r3Pim/Cut0DN4jAkuvudyK53YmAGkCu8C2QoEEnueQdUxoAcB0BvWJ79KbkXaCrICIKIAS0afa//tzv/S3bfe3EyNHuC7Tc7/UNs91tJQpoBnFXAxZ/SIBwAAAAASUVORK5CYII=",
+                  "sizes": "(max-width: 1920px) 100vw, 1920px",
+                  "src": "/static/ca31f74a20da556b69057d20ff6abaf2/248ef/react.png",
+                  "srcSet": "/static/ca31f74a20da556b69057d20ff6abaf2/b8dca/react.png 930w,\n/static/ca31f74a20da556b69057d20ff6abaf2/da114/react.png 1860w,\n/static/ca31f74a20da556b69057d20ff6abaf2/248ef/react.png 1920w"
                 }
               }
             },
@@ -4441,7 +4441,7 @@
           },
           "fields": {
             "layout": "",
-            "slug": "/recursion-in-js/"
+            "slug": "/whats-react/"
           }
         },
         "primaryTag": "Dev Tools"
@@ -4454,19 +4454,19 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "820f8fb2e312529aeb090e4cf0a3dfff",
+        "contentDigest": "aab3cf268c5edf609fc3e79180434bea",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /recursion-in-js/": {
-      "jsonName": "recursion-in-js-91e",
-      "internalComponentName": "ComponentRecursionInJs",
-      "path": "/recursion-in-js/",
+    "SitePage /whats-react/": {
+      "jsonName": "whats-react-fe9",
+      "internalComponentName": "ComponentWhatsReact",
+      "path": "/whats-react/",
       "component": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
       "componentChunkName": "component---src-templates-post-tsx",
       "context": {
-        "slug": "/recursion-in-js/",
+        "slug": "/whats-react/",
         "prev": {
           "excerpt": "Introduction If you’re reading this chances are you are very much like me: lazy and proud! Aliases are a great way for us lazy developers to…",
           "timeToRead": 3,
@@ -4508,69 +4508,6 @@
           }
         },
         "next": {
-          "excerpt": "Introduction Hello! Thanks for stopping by and taking time to read our blog; we appreciate you! This article is for total newcomers to React…",
-          "timeToRead": 11,
-          "frontmatter": {
-            "title": "What's this *React* thing?",
-            "tags": [
-              "Front End"
-            ],
-            "date": "2018-12-05",
-            "draft": false,
-            "image": {
-              "childImageSharp": {
-                "fluid": {
-                  "aspectRatio": 1.7777777777777777,
-                  "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABjklEQVQoz2PwuvofgrxhDOIRA5zlcfW/J5jEb5w3Vs1RN/6FX/8Xcf2f97X/7lf++1z773rlv8eV/55XQCYCRbzApPPl/25XkDQDhUJv/C+7+b3j7reUy1+szv5sevh/8uPfFff++Vz7F3Ljf9D1/2E3QHZG3/pfcv9/ws1/7mAngDQDLUm78bvjzrcpD7533/1mevTj5Ic/Njz/Mevh99mPf05/8rv+3u8Nr35PefKn/Ob3lS9+JV/6onfqp/91sGagq6Jv/Gu4/b3r7rfy618V972vvfk19dKXzrvf5zz60XDrK1B81bMfk+9/y7/6pebm16jzn3h2vDU79R2kGRhOftf/h17+aX/8g+WxjxJ73snvfSe2+53svneqB95rHHivvP+92oH3MnvfGR3+oLT/PVAQKCu++x1SaF/5r3Pim/Cut0DN4jAkuvudyK53YmAGkCu8C2QoEEnueQdUxoAcB0BvWJ79KbkXaCrICIKIAS0afa//tzv/S3bfe3EyNHuC7Tc7/UNs91tJQpoBnFXAxZ/SIBwAAAAASUVORK5CYII=",
-                  "sizes": "(max-width: 1920px) 100vw, 1920px",
-                  "src": "/static/ca31f74a20da556b69057d20ff6abaf2/248ef/react.png",
-                  "srcSet": "/static/ca31f74a20da556b69057d20ff6abaf2/b8dca/react.png 930w,\n/static/ca31f74a20da556b69057d20ff6abaf2/da114/react.png 1860w,\n/static/ca31f74a20da556b69057d20ff6abaf2/248ef/react.png 1920w"
-                }
-              }
-            },
-            "author": {
-              "id": "James DeLay",
-              "bio": "Junior Application Developer at Oppenheimer & Co. Inc",
-              "avatar": {
-                "children": [
-                  {
-                    "fixed": {
-                      "src": "/static/5c35cade3718bf2d4f82f0c705b50cb7/6bb1b/james.png"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "fields": {
-            "layout": "",
-            "slug": "/whats-react/"
-          }
-        },
-        "primaryTag": "JavaScript"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
-      "id": "SitePage /recursion-in-js/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4304ee2ec151d7b486202b9821527f0b",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /whats-react/": {
-      "jsonName": "whats-react-fe9",
-      "internalComponentName": "ComponentWhatsReact",
-      "path": "/whats-react/",
-      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
-      "componentChunkName": "component---src-templates-post-tsx",
-      "context": {
-        "slug": "/whats-react/",
-        "prev": {
           "excerpt": "Introduction Recursive functions seem very mysterious for new developers. I struggled for quite a bit before I began to understand how they…",
           "timeToRead": 6,
           "frontmatter": {
@@ -4610,7 +4547,6 @@
             "slug": "/recursion-in-js/"
           }
         },
-        "next": null,
         "primaryTag": "Front End"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -4621,7 +4557,71 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dad6ab9ce62e9680d4fbbc5b42060d95",
+        "contentDigest": "bd33809992d8e41ba1734850e6f45615",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /recursion-in-js/": {
+      "jsonName": "recursion-in-js-91e",
+      "internalComponentName": "ComponentRecursionInJs",
+      "path": "/recursion-in-js/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
+      "componentChunkName": "component---src-templates-post-tsx",
+      "context": {
+        "slug": "/recursion-in-js/",
+        "prev": {
+          "excerpt": "Introduction Hello! Thanks for stopping by and taking time to read our blog; we appreciate you! This article is for total newcomers to React…",
+          "timeToRead": 11,
+          "frontmatter": {
+            "title": "What's this *React* thing?",
+            "tags": [
+              "Front End"
+            ],
+            "date": "2018-12-05",
+            "draft": false,
+            "image": {
+              "childImageSharp": {
+                "fluid": {
+                  "aspectRatio": 1.7777777777777777,
+                  "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABjklEQVQoz2PwuvofgrxhDOIRA5zlcfW/J5jEb5w3Vs1RN/6FX/8Xcf2f97X/7lf++1z773rlv8eV/55XQCYCRbzApPPl/25XkDQDhUJv/C+7+b3j7reUy1+szv5sevh/8uPfFff++Vz7F3Ljf9D1/2E3QHZG3/pfcv9/ws1/7mAngDQDLUm78bvjzrcpD7533/1mevTj5Ic/Njz/Mevh99mPf05/8rv+3u8Nr35PefKn/Ob3lS9+JV/6onfqp/91sGagq6Jv/Gu4/b3r7rfy618V972vvfk19dKXzrvf5zz60XDrK1B81bMfk+9/y7/6pebm16jzn3h2vDU79R2kGRhOftf/h17+aX/8g+WxjxJ73snvfSe2+53svneqB95rHHivvP+92oH3MnvfGR3+oLT/PVAQKCu++x1SaF/5r3Pim/Cut0DN4jAkuvudyK53YmAGkCu8C2QoEEnueQdUxoAcB0BvWJ79KbkXaCrICIKIAS0afa//tzv/S3bfe3EyNHuC7Tc7/UNs91tJQpoBnFXAxZ/SIBwAAAAASUVORK5CYII=",
+                  "sizes": "(max-width: 1920px) 100vw, 1920px",
+                  "src": "/static/ca31f74a20da556b69057d20ff6abaf2/248ef/react.png",
+                  "srcSet": "/static/ca31f74a20da556b69057d20ff6abaf2/b8dca/react.png 930w,\n/static/ca31f74a20da556b69057d20ff6abaf2/da114/react.png 1860w,\n/static/ca31f74a20da556b69057d20ff6abaf2/248ef/react.png 1920w"
+                }
+              }
+            },
+            "author": {
+              "id": "James DeLay",
+              "bio": "Junior Application Developer at Oppenheimer & Co. Inc",
+              "avatar": {
+                "children": [
+                  {
+                    "fixed": {
+                      "src": "/static/5c35cade3718bf2d4f82f0c705b50cb7/6bb1b/james.png"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "fields": {
+            "layout": "",
+            "slug": "/whats-react/"
+          }
+        },
+        "next": null,
+        "primaryTag": "JavaScript"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx",
+      "id": "SitePage /recursion-in-js/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4c19ce2d5e3026e4886f5ec8c9a4ab80",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4670,28 +4670,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /tags/java-script/": {
-      "jsonName": "tags-java-script-f48",
-      "internalComponentName": "ComponentTagsJavaScript",
-      "path": "/tags/java-script/",
-      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
-      "componentChunkName": "component---src-templates-tags-tsx",
-      "context": {
-        "tag": "JavaScript"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
-      "id": "SitePage /tags/java-script/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "a8222d314573a00fd8d90fe29d752cae",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /tags/front-end/": {
       "jsonName": "tags-front-end-013",
       "internalComponentName": "ComponentTagsFrontEnd",
@@ -4710,6 +4688,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "3e938a00ff56ea4f22231dfd1761f671",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/java-script/": {
+      "jsonName": "tags-java-script-f48",
+      "internalComponentName": "ComponentTagsJavaScript",
+      "path": "/tags/java-script/",
+      "component": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
+      "componentChunkName": "component---src-templates-tags-tsx",
+      "context": {
+        "tag": "JavaScript"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jim/Documents/BlogSite_2.0/src/templates/tags.tsx",
+      "id": "SitePage /tags/java-script/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a8222d314573a00fd8d90fe29d752cae",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4852,7 +4852,8 @@
         "/author/james-de-lay/",
         "/author/sarah-zhao/",
         "/reacto-handshake/",
-        "/reacto-k-messed-array/"
+        "/reacto-k-messed-array/",
+        null
       ],
       "437bb904-b295-58a6-9e95-aeb962fad68a": [
         null,
@@ -4861,7 +4862,8 @@
         "/author/james-de-lay/",
         "/author/sarah-zhao/",
         "/reacto-handshake/",
-        "/reacto-k-messed-array/"
+        "/reacto-k-messed-array/",
+        null
       ],
       "42f46cdb-c54f-5cbc-886a-94fe78f963fd": [
         null,
@@ -4871,7 +4873,8 @@
         "/tags/dev-tools/",
         "/author/james-de-lay/",
         "/author/sarah-zhao/",
-        "/terminal-aliasing/"
+        "/terminal-aliasing/",
+        null
       ],
       "6e2b9135-0feb-5816-859e-ceb9d7f81e63": [
         null,
@@ -4885,7 +4888,8 @@
         "/author/sarah-zhao/",
         "/terminal-aliasing/",
         "/recursion-in-js/",
-        "/whats-react/"
+        "/whats-react/",
+        null
       ],
       "b192e848-a605-5d27-9512-8a9a4a3dc0e2": [
         null,
@@ -4895,7 +4899,8 @@
         "/tags/java-script/",
         "/author/james-de-lay/",
         "/author/sarah-zhao/",
-        "/recursion-in-js/"
+        "/recursion-in-js/",
+        null
       ],
       "03df68cf-5388-55b0-a7c1-be80ae7f929a": [
         null,
@@ -4905,47 +4910,48 @@
         "/tags/front-end/",
         "/author/james-de-lay/",
         "/author/sarah-zhao/",
-        "/whats-react/"
+        "/whats-react/",
+        null
       ],
       "51ea69fa-e6a7-596d-b4ed-d69b83bfaef0": [
         "sq--src-components-header-site-nav-logo-tsx"
       ],
       "d56dacb3-22d8-5661-bcc8-ec1ecaedbdeb": [
-        "sq--src-components-read-next-card-tsx",
         "/",
         "/tags/reacto/",
         "/tags/dev-tools/",
         "/tags/java-script/",
-        "/tags/front-end/"
+        "/tags/front-end/",
+        "sq--src-components-read-next-card-tsx"
       ],
       "502559c0-e2eb-5a87-8fb1-c267a716f5d0": [
-        "sq--src-components-subscribe-subscribe-logo-tsx",
         "/",
         "/reacto-handshake/",
         "/reacto-k-messed-array/",
         "/terminal-aliasing/",
         "/recursion-in-js/",
-        "/whats-react/"
+        "/whats-react/",
+        "sq--src-components-subscribe-subscribe-logo-tsx"
       ],
       "fbd0139a-cf4b-51df-a0f6-aa4735908c7e": [
         "sq--src-components-header-site-nav-logo-tsx"
       ],
       "9b307d07-5dac-5712-96a5-cf3b348b187e": [
-        "sq--src-components-read-next-card-tsx",
         "/",
         "/tags/reacto/",
         "/tags/dev-tools/",
         "/tags/java-script/",
-        "/tags/front-end/"
+        "/tags/front-end/",
+        "sq--src-components-read-next-card-tsx"
       ],
       "c212760f-691c-5ffa-991a-757cf9fca01b": [
-        "sq--src-components-subscribe-subscribe-logo-tsx",
         "/",
         "/reacto-handshake/",
         "/reacto-k-messed-array/",
         "/terminal-aliasing/",
         "/recursion-in-js/",
-        "/whats-react/"
+        "/whats-react/",
+        "sq--src-components-subscribe-subscribe-logo-tsx"
       ],
       "b7861725-5500-5aa1-b3bf-5409d582a99b": [
         "/404/",
@@ -5049,9 +5055,11 @@
         "/reacto-k-messed-array/",
         "/terminal-aliasing/",
         "/recursion-in-js/",
-        "/whats-react/"
+        "/whats-react/",
+        null
       ],
       "AuthorYaml": [
+        null,
         null
       ],
       "TagYaml": [
@@ -5063,25 +5071,25 @@
     }
   },
   "jsonDataPaths": {
-    "404-22d": "301/path---404-22-d-bce-EM2HhNKvLgKbwkqJYejYEncDUI",
-    "404-html-516": "543/path---404-html-516-62a-EM2HhNKvLgKbwkqJYejYEncDUI",
+    "404-22d": "477/path---404-22-d-bce-efH2UM5JS5QZ9UeZEjqB1msYqU",
+    "404-html-516": "919/path---404-html-516-62a-efH2UM5JS5QZ9UeZEjqB1msYqU",
     "sq--src-components-read-next-card-tsx": 1676377518,
     "tags-reacto-233": "777/path---tags-reacto-233-22a-CS6C0iSapGh7IXwSNxiK0A7Kt1s",
     "sq--src-components-subscribe-subscribe-logo-tsx": 3086017266,
     "tags-dev-tools-60f": "77/path---tags-dev-tools-60-f-0dc-cETFX2oYUjq7MHnnDnzP5Zrk1Wo",
     "tags-java-script-f48": "38/path---tags-java-script-f-48-542-xTrCRZMgnSueuHw18Bermagd98",
     "tags-front-end-013": "15/path---tags-front-end-013-e86-9tZ6L906XjaBD2mJAP5oAwv8",
-    "index": "735/path---index-6a9-uQG18H2FXBcsVm0HGfoKUkxCAiA",
+    "index": "96/path---index-6a9-BU0pBZD2j4BzJ03CL0hRwIpjw6Y",
     "sq--src-components-header-site-nav-logo-tsx": 1396328160,
     "reacto-handshake-457": "373/path---reacto-handshake-457-48a-SqKp344TC4ekFu2rmyOpnWwzuYM",
     "reacto-k-messed-array-7c2": "837/path---reacto-k-messed-array-7-c-2-fc6-sqJpLFBV8fSxcn4DV0hfZuPUi0",
-    "author-james-de-lay-1a6": "341/path---author-james-de-lay-1-a-6-253-NCqLuuxaT5izV3MHcU5tZ4kEmRo",
-    "terminal-aliasing-756": "393/path---terminal-aliasing-756-7d1-K0l0ojo4NnxvOe5FrZXPgyLms",
-    "recursion-in-js-91e": "369/path---recursion-in-js-91-e-0b8-GcD2a2nlSHdk0DlDLE5CUY0HZ1I",
+    "author-james-de-lay-1a6": "456/path---author-james-de-lay-1-a-6-253-Dh1wWbBKLJ97Qk9wpsJ1GxuJcrs",
+    "terminal-aliasing-756": "267/path---terminal-aliasing-756-7d1-XIRpcFIrjfqrFFCOkiHA3r7ujus",
+    "recursion-in-js-91e": "636/path---recursion-in-js-91-e-0b8-GrAwaQ5SmydLBSQ0rWWxS5sVPl4",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "whats-react-fe9": "604/path---whats-react-fe-9-074-HhiMQXPWCWanAF8Yxm75q3yzk",
+    "whats-react-fe9": "731/path---whats-react-fe-9-074-ge4w4WmLYZ6OuKGv7xQdpmFKs",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "author-sarah-zhao-81d": "696/path---author-sarah-zhao-81-d-2a8-cAPRmDoztxARAQPJPrHm1z9mTY"
+    "author-sarah-zhao-81d": "532/path---author-sarah-zhao-81-d-2a8-ExOQVMNT2udTnc9AhwiMwNdXeFY"
   },
   "components": {
     "/home/jim/Documents/BlogSite_2.0/src/templates/post.tsx": {
