@@ -1,0 +1,47 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-tsx",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-tsx",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-tsx",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-about-tsx",
+        "jsonName": "about-f34",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-templates-author-tsx",
+        "jsonName": "author-james-de-lay-1a6",
+        "path": "/author/james-de-lay/"
+    },
+    {
+        "componentChunkName": "component---src-templates-author-tsx",
+        "jsonName": "author-sarah-zhao-81d",
+        "path": "/author/sarah-zhao/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-tsx",
+        "jsonName": "k-messed-array-908",
+        "path": "/k-messed-array/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-tsx",
+        "jsonName": "tags-reacto-233",
+        "path": "/tags/reacto/"
+    }
+]

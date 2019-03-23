@@ -23,6 +23,8 @@ const SiteNavLogoStyles = css`
     display: block;
     width: auto;
     height: 21px;
+    transform: scale(2.5);
+    padding-left: 5px;
   }
 `;
 
