@@ -1,3 +1,6 @@
 - id: REACTO
-  description: Whiteboard Interview Questions
+  description: Software Engineering Whiteboard Interview Questions
+  image: img/blog-cover.jpg
+- id: Front End
+  description: All things Front End
   image: img/blog-cover.jpg

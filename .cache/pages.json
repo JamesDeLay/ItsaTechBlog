@@ -36,8 +36,23 @@
     },
     {
         "componentChunkName": "component---src-templates-post-tsx",
+        "jsonName": "img-whats-this-react-thing-4c3",
+        "path": "/img/whats-this-react-thing/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-tsx",
         "jsonName": "k-messed-array-908",
         "path": "/k-messed-array/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-tsx",
+        "jsonName": "tags-226",
+        "path": "/tags//"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-tsx",
+        "jsonName": "tags-front-end-013",
+        "path": "/tags/front-end/"
     },
     {
         "componentChunkName": "component---src-templates-tags-tsx",
