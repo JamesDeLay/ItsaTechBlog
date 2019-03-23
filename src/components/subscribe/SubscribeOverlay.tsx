@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
-
+import { darken, desaturate, mix } from 'polished';
 import { colors } from '../../styles/colors';
 import config from '../../website-config';
 import SubscribeForm from './SubscribeForm';
@@ -20,7 +20,7 @@ const SubscribeOverlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 25, 40, 0.97);
+  background: #171616e3;
   opacity: ${(props: SubscribeOverlayProps) => (props.open ? 1 : 0)};
   transition: opacity 200ms ease-in;
   pointer-events: ${(props: SubscribeOverlayProps) => (props.open ? 'auto' : 'none')};
@@ -43,7 +43,7 @@ const SubscribeOverlay = styled.div`
     padding: 14px 20px;
     width: 100%;
     border: none;
-    color: ${colors.midgrey};
+    color: ${colors.red};
     font-size: 2rem;
     line-height: 1em;
     font-weight: normal;
@@ -68,10 +68,10 @@ const SubscribeOverlay = styled.div`
     text-align: center;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
     background: linear-gradient(
-      color(var(--blue) whiteness(+7%)),
-      color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-      color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-      color(var(--blue) lightness(-4%) saturation(-10%))
+      ${mix('0.1', '#fff', colors.red)},
+      ${desaturate('0.1', darken('0.07', colors.red))} 60%,
+      ${desaturate('0.1', darken('0.07', colors.red))} 90%,
+      ${desaturate('0.1', darken('0.04', colors.red))}
     );
     border-radius: 8px;
     box-shadow: 0 0 0 1px inset rgba(0, 0, 0, 0.14);

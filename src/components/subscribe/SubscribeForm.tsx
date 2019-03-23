@@ -55,10 +55,10 @@ const SubscribeFormButton = styled.button`
     color(var(--blue) lightness(-4%) saturation(-10%))
   ); */
   background: linear-gradient(
-    ${mix('0.1', '#fff', colors.blue)},
-    ${desaturate('0.1', darken('0.07', colors.blue))} 60%,
-    ${desaturate('0.1', darken('0.07', colors.blue))} 90%,
-    ${desaturate('0.1', darken('0.04', colors.blue))}
+    ${mix('0.1', '#fff', colors.red)},
+    ${desaturate('0.1', darken('0.07', colors.red))} 60%,
+    ${desaturate('0.1', darken('0.07', colors.red))} 90%,
+    ${desaturate('0.1', darken('0.04', colors.red))}
   );
   border-radius: 5px;
   box-shadow: 0 0 0 1px inset rgba(0, 0, 0, 0.14);

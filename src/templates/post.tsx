@@ -72,7 +72,7 @@ const PostFullMeta = styled.section`
 `;
 
 const PostFullMetaDate = styled.time`
-  color: ${colors.blue};
+  color: ${colors.red};
 `;
 
 export const PostFullTitle = styled.h1`
@@ -328,7 +328,7 @@ export default PageTemplate;
 
 export const query = graphql`
   query($slug: String, $primaryTag: String) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+    logo: file(relativePath: { eq: "img/logoImage.png" }) {
       childImageSharp {
         fixed {
           ...GatsbyImageSharpFixed
