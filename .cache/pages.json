@@ -15,11 +15,6 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-pages-about-tsx",
-        "jsonName": "about-f34",
-        "path": "/about/"
-    },
-    {
         "componentChunkName": "component---src-templates-author-tsx",
         "jsonName": "author-james-de-lay-1a6",
         "path": "/author/james-de-lay/"
