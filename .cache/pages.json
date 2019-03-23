@@ -36,11 +36,6 @@
     },
     {
         "componentChunkName": "component---src-templates-post-tsx",
-        "jsonName": "k-messed-array-908",
-        "path": "/k-messed-array/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-tsx",
         "jsonName": "reacto-handshake-457",
         "path": "/reacto-handshake/"
     },
@@ -53,11 +48,6 @@
         "componentChunkName": "component---src-templates-post-tsx",
         "jsonName": "recursion-e76",
         "path": "/recursion/"
-    },
-    {
-        "componentChunkName": "component---src-templates-tags-tsx",
-        "jsonName": "tags-226",
-        "path": "/tags//"
     },
     {
         "componentChunkName": "component---src-templates-tags-tsx",
