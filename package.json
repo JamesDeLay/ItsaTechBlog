@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-casper",
-  "description": "Casper for gatsby",
+  "name": "itsa-tech-blog",
+  "description": "Itsa Tech Blog: a code blog with an emphasis on JavaScript and Web Dev",
   "version": "0.0.0",
   "private": true,
-  "author": "Scott Cooper <scttcper@gmail.com>",
+  "author": "James DeLay <itsatechblog.bloggers@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

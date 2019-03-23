@@ -79,7 +79,6 @@ const Footer: React.FunctionComponent = () => {
               Twitter
             </a>
           )}
-          <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
       </div>
     </footer>
