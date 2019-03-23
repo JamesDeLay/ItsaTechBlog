@@ -5,7 +5,7 @@ author: James DeLay
 tags: ["JavaScript"]
 image: img/recursion.jpg
 date: "2018-12-05"
-draft: true
+draft: false
 ---
 
 ## Introduction
