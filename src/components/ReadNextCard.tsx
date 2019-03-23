@@ -20,7 +20,7 @@ const ReadNextCardStyles = styled.article`
   margin: 0 20px 40px;
   padding: 25px;
   color: #fff;
-  background: ${colors.darkgrey} center center;
+  background: ${colors.red} center center;
   background-size: cover;
   border-radius: 5px;
   box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
@@ -34,7 +34,7 @@ const ReadNextCardStyles = styled.article`
     bottom: 0;
     left: 0;
     display: block;
-    background: linear-gradient(135deg, rgba(0,40,60,0.8) 0%,rgba(0,20,40,0.7) 100%);
+    background: linear-gradient(135deg, rgba(60, 0, 0, 0.8) 0%,rgba(51, 51, 51, 0.7) 100%);
     border-radius: 5px;
     backdrop-filter: blur(2px);
   }
