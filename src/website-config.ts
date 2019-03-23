@@ -31,7 +31,7 @@ const config: WebsiteConfig = {
   title: 'Itsa Tech Blog',
   description: '',
   coverImage: 'img/blog-cover.jpg',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/logo.png',
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
   twitter: 'https://twitter.com/tryghost',
