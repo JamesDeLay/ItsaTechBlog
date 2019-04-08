@@ -6,10 +6,10 @@
   website: https://github.com/JDeLay-JR
   location: New York, New York
   profile_image: img/computer.jpg
-  
+
 - id: Sarah Zhao
   avatar: avatars/sarah.jpg
-  bio: This is another test author with a profile background image
+  bio: Software Engineer at Call9
   linkedIn: https://www.linkedin.com/in/sarah-zhao-025/
   github: https://github.com/sarahzhao25
   website: https://sarahzhao25.github.io/
