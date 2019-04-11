@@ -2,7 +2,10 @@
   description: Software Engineering Whiteboard Interview Questions
   image: img/blog-cover.jpg
 - id: Front End
-  description: All things Front End
+  description: All things related to front end web development
+  image: img/blog-cover.jpg
+- id: Back End
+  description: All things related to back end web development
   image: img/blog-cover.jpg
 - id: Dev Tools
   description: All the things that make our lives easy

@@ -68,7 +68,7 @@ const SubscribeFormButton = styled.button`
   :active,
   :focus {
     /* background: color(var(--blue) lightness(-9%) saturation(-10%)); */
-    background: ${desaturate('0.1', darken('0.09', colors.blue))};
+    background: ${desaturate('0.1', darken('0.09', colors.red))};
   }
   @media (max-width: 500px) {
     margin: 10px 0 0;
