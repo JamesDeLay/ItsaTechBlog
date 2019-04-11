@@ -3,6 +3,8 @@ import { Link } from 'gatsby';
 import * as React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
+import { mix, darken, desaturate } from 'polished';
+import { colors } from '../../styles/colors';
 
 import { SocialLink } from '../../styles/shared';
 import config from '../../website-config';
@@ -107,6 +109,12 @@ const SubscribeButton = styled.a`
   :hover {
     text-decoration: none;
     opacity: 1;
+    background: linear-gradient(
+      ${mix('0.1', '#fff', colors.red)},
+      ${desaturate('0.1', darken('0.07', colors.red))} 60%,
+      ${desaturate('0.1', darken('0.07', colors.red))} 90%,
+      ${desaturate('0.1', darken('0.04', colors.red))}
+    );
     cursor: pointer;
   }
 `;
