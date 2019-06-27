@@ -99,7 +99,7 @@ app.get('/dogs', (req, res, next) => {
 })
 ```
 
-As we can see here we specify the method that this endpoint accepts (the `.get`), we specify the name of the endpoint/resource (`/dogs`), and we provide a callback function that will be executed when a user hits this endpoint. This callback function takes three parameters: the request body, the response body, and this thing called next. These are often abbreviated as: `(req, res, next)`. We place all of our endpoint logic inside of this callback function 
+As we can see here we specify the method that this endpoint accepts (the `.get`), we specify the name of the endpoint/resource (`/dogs`), and we provide a callback function that will be executed when a user hits this endpoint. This callback function takes three parameters: the request body, the response body, and this thing called next. These are often abbreviated as: `(req, res, next)`. We place all of our endpoint logic inside of this callback function.
 
 
     #### Query Strings
