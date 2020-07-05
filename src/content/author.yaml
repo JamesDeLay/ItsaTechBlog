@@ -1,6 +1,6 @@
 - id: James DeLay
-  avatar: avatars/james.png
-  bio: Junior Application Developer at Oppenheimer & Co. Inc
+  avatar: avatars/james.jpg
+  bio: Software Engineer at McKinsey & Co.
   linkedIn: https://www.linkedin.com/in/jdelayjr/
   github: https://github.com/JDeLay-JR
   website: https://github.com/JDeLay-JR
@@ -9,7 +9,7 @@
 
 - id: Sarah Zhao
   avatar: avatars/sarah.jpg
-  bio: Software Engineer at Call9
+  bio: Software Engineer at The Fullstack Academy of Code
   linkedIn: https://www.linkedin.com/in/sarah-zhao-025/
   github: https://github.com/sarahzhao25
   website: https://sarahzhao25.github.io/
